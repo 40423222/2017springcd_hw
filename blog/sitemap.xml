@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-05-03T18:27:39-00:00</lastmod>
+<lastmod>2017-05-03T18:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-05-03T18:27:39-00:00</lastmod>
+<lastmod>2017-05-03T18:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-05-03T18:27:39-00:00</lastmod>
+<lastmod>2017-05-03T18:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-05-03T18:27:39-00:00</lastmod>
+<lastmod>2017-05-03T18:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -102,14 +102,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/w8.html</loc>
+<loc>./tag/notes.html</loc>
 <lastmod>2017-05-03T16:36:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/notes.html</loc>
+<loc>./tag/w8.html</loc>
 <lastmod>2017-05-03T16:36:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
