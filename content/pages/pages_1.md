@@ -2,7 +2,7 @@ Title: About
 
 ##2017Spring 機械設計工程系協同產品設計實習
 
-##第七組協同倉儲
+## 組長網誌
 
 課程倉儲: <a href="https://github.com/40423222/2017springcd_bg7">https://github.com/40423222/2017springcd_bg7</a>
 

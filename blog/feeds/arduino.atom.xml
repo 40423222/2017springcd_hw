@@ -13,7 +13,7 @@ LED燈: 三個&lt;br/&gt;
 Arduino Uno: 一個&lt;br/&gt;
 Breadboard: 兩個&lt;br/&gt;&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../data/Arduino/threeLevel_Motor/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/threeLevel_Motor/Circuit diagram.png" width="800" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
 &lt;pre class="brush: python"&gt;
 int potenPin = A4; //因為可變電阻輸出的是類比,所以要用A0~A5接收
