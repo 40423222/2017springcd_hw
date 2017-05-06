@@ -77,7 +77,7 @@ button: 兩個&lt;br/&gt;
 10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 兩個&lt;br/&gt;
 Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 7447: 一個&lt;br/&gt;
-LED燈: 三個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 三個&lt;br/&gt;
 Arduino Uno: 一個&lt;br/&gt;
 Breadboard: 兩個&lt;br/&gt;&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
@@ -196,7 +196,7 @@ void loop() {
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
-LED燈: 一個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
 Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
@@ -228,7 +228,7 @@ void loop() {
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
-LED燈: 一個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Fade/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
@@ -266,7 +266,7 @@ void loop() {
 &lt;p&gt;Wire: n個&lt;br/&gt;
 10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 Button: 一個&lt;br/&gt;
-LED燈: 一個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Button/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
@@ -303,7 +303,7 @@ void loop() {
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
-&lt;p&gt;LED燈: 一個&lt;br/&gt;
+&lt;p&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Blink/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
