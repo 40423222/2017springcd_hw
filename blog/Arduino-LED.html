@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Lab3 Fade - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>LED - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,18 @@
 
 
 
-<link rel="canonical" href="./Arduino-Fade.html">
+<link rel="canonical" href="./Arduino-LED.html">
 
         <meta name="author" content="40423222" />
         <meta name="keywords" content="notes,w8" />
-        <meta name="description" content="以下為Arduino Uno板的Fade實驗" />
+        <meta name="description" content="以下為LED的解說" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Lab3 Fade"/>
-        <meta property="og:url" content="./Arduino-Fade.html"/>
-        <meta property="og:description" content="以下為Arduino Uno板的Fade實驗"/>
-        <meta property="article:published_time" content="2017-04-25" />
+        <meta property="og:title" content="LED"/>
+        <meta property="og:url" content="./Arduino-LED.html"/>
+        <meta property="og:description" content="以下為LED的解說"/>
+        <meta property="article:published_time" content="2017-05-06" />
             <meta property="article:section" content="Arduino" />
             <meta property="article:tag" content="notes" />
             <meta property="article:tag" content="w8" />
@@ -135,10 +135,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Arduino-Fade.html"
+                    <a href="./Arduino-LED.html"
                        rel="bookmark"
-                       title="Permalink to Lab3 Fade">
-                        Lab3 Fade
+                       title="Permalink to LED">
+                        LED
                     </a>
                 </h1>
             </header>
@@ -148,7 +148,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-25T23:02:00+08:00"> Tue 25 April 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-05-06T17:44:00+08:00"> Sat 06 May 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -162,44 +162,35 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>以下為Arduino Uno板的Fade實驗</p>
+                <p>以下為LED的解說</p>
 
 
-<h3>需要材料:</h3>
-<p>Wire: n個<br/>
-330Ω <a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html">Resistor</a>: 一個<br/>
-LED燈: 一個<br/>
-Arduino Uno: 一個</p>
-<h3>電路圖(Circuit diagram)</h3>
-<p><img src="./../data/Arduino/Fade/Circuit diagram.png" width="480" /></p>
-<h3>程式碼(Code)</h3>
-<pre class="brush: python">
-int brightness = 0; //亮度,保存目前亮度
-int fadeAmount = 5; //退色量,亮度調整
-//int but = 0;
-
-void setup() {
-  //Serial.begin(9600);  //設定傳輸速度的值
-  pinMode(9,OUTPUT);
-}
-
-void loop() {
-  //but = digitalRead(brightness);   //將輸出的數值存入變數but裡,因為
-  //Serial.println(but);  //在監控視窗裡顯示出序列傳輸的數值
-  //因為有錯誤,先關閉Serial
-  analogWrite(9,brightness);
-  //9腳位輸出,brightness的值
-  brightness = brightness + fadeAmount;
-  //每一輪brightness會加5或-5,取決於fadeAmount的+或-
-  if (brightness == 0 || brightness == 155) {
-    //如果brightness等於0或是等於155,執行下方指令
-    fadeAmount = -fadeAmount;
-  }
-  delay(100);
-}
-</pre>
-
-<h3><a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab3-led.html">參考網站</a></h3>
+<h3>LED零件:<br/></h3>
+<p><img src="./../data/Arduino/LED/LED.png" width="300" /><br/></p>
+<h3>LED裝配方式:<br/></h3>
+<p><img src="./../data/Arduino/LED/install.png" width="650" /><br/></p>
+<h3>要裝多少電阻:<br/></h3>
+<p>假設LED的正向電壓(forward voltage)為2V和正向電流(forward current)為20mA(0.02A),要知道LED這些數值,需查詢產品資料<br/>
+知道這些數值後利用,R = V / I   R = 電阻 , V = 電壓 , I = 電流<br/>
+2(V) / 0.02(A) = 150 (ohm)<br/>
+也就是要使用150Ω <a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html">Resistor</a></p>
+<p>Arduino Uno13腳位的LED有內設電阻,所以不需要接上電阻<br/>
+<img src="./../data/Arduino/LED/Arduino pin13.png" width="450" /></p>
+<h3>參考網站:<br/></h3>
+<p>1.LED零件:
+<a href="https://zh.wikipedia.org/wiki/%E7%99%BC%E5%85%89%E4%BA%8C%E6%A5%B5%E7%AE%A1">https://zh.wikipedia.org/wiki/%E7%99%BC%E5%85%89%E4%BA%8C%E6%A5%B5%E7%AE%A1</a><br/>
+參考對象:
+<img src="./../data/Arduino/LED/維基百科.png" width="150" /><br/></p>
+<p>2.LED裝配方式:
+<a href="https://www.youtube.com/watch?v=cWEJMusT-hI">https://www.youtube.com/watch?v=cWEJMusT-hI</a><br/>
+參考對象:
+<img src="./../data/Arduino/LED/軟爛番茄.png" width="150" /><br/></p>
+<p>3.要裝多少電阻:<br/>
+<a href="https://www.youtube.com/watch?v=cWEJMusT-hI">https://www.youtube.com/watch?v=cWEJMusT-hI</a><br/>
+<a href="http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html">http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html</a><br/>
+參考對象:
+<img src="./../data/Arduino/LED/軟爛番茄.png" width="150" />
+<img src="./../data/Arduino/LED/葉難.png" width="150" /></p>
             </div>
             <!-- /.entry-content -->
         </article>

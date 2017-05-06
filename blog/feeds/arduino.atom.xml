@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/arduino.atom.xml" rel="self"></link><id>./</id><updated>2017-05-06T14:52:00+08:00</updated><entry><title>Resistance</title><link href="./Arduino-Resistance.html" rel="alternate"></link><published>2017-05-06T14:52:00+08:00</published><updated>2017-05-06T14:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Resistance.html</id><summary type="html">&lt;p&gt;以下為Resistance的解說&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/arduino.atom.xml" rel="self"></link><id>./</id><updated>2017-05-06T17:44:00+08:00</updated><entry><title>LED</title><link href="./Arduino-LED.html" rel="alternate"></link><published>2017-05-06T17:44:00+08:00</published><updated>2017-05-06T17:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-LED.html</id><summary type="html">&lt;p&gt;以下為LED的解說&lt;/p&gt;
+
+
+&lt;h3&gt;LED零件:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/LED/LED.png" width="300" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;LED裝配方式:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/LED/install.png" width="650" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;要裝多少電阻:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;假設LED的正向電壓(forward voltage)為2V和正向電流(forward current)為20mA(0.02A),要知道LED這些數值,需查詢產品資料&lt;br/&gt;
+知道這些數值後利用,R = V / I   R = 電阻 , V = 電壓 , I = 電流&lt;br/&gt;
+2(V) / 0.02(A) = 150 (ohm)&lt;br/&gt;
+也就是要使用150Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Arduino Uno13腳位的LED有內設電阻,所以不需要接上電阻&lt;br/&gt;
+&lt;img src="./../data/Arduino/LED/Arduino pin13.png" width="450" /&gt;&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;1.LED零件:
+&lt;a href="https://zh.wikipedia.org/wiki/%E7%99%BC%E5%85%89%E4%BA%8C%E6%A5%B5%E7%AE%A1"&gt;https://zh.wikipedia.org/wiki/%E7%99%BC%E5%85%89%E4%BA%8C%E6%A5%B5%E7%AE%A1&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/LED/維基百科.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;2.LED裝配方式:
+&lt;a href="https://www.youtube.com/watch?v=cWEJMusT-hI"&gt;https://www.youtube.com/watch?v=cWEJMusT-hI&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/LED/軟爛番茄.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;3.要裝多少電阻:&lt;br/&gt;
+&lt;a href="https://www.youtube.com/watch?v=cWEJMusT-hI"&gt;https://www.youtube.com/watch?v=cWEJMusT-hI&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html"&gt;http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/LED/軟爛番茄.png" width="150" /&gt;
+&lt;img src="./../data/Arduino/LED/葉難.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Resistance</title><link href="./Arduino-Resistance.html" rel="alternate"></link><published>2017-05-06T14:52:00+08:00</published><updated>2017-05-06T14:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Resistance.html</id><summary type="html">&lt;p&gt;以下為Resistance的解說&lt;/p&gt;
 
 
 &lt;h3&gt;電阻零件:&lt;br/&gt;&lt;/h3&gt;
