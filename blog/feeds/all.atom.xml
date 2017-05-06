@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-06T17:44:00+08:00</updated><entry><title>LED</title><link href="./Arduino-LED.html" rel="alternate"></link><published>2017-05-06T17:44:00+08:00</published><updated>2017-05-06T17:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-LED.html</id><summary type="html">&lt;p&gt;以下為LED的解說&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-06T21:01:00+08:00</updated><entry><title>Button</title><link href="./Arduino-Button-part.html" rel="alternate"></link><published>2017-05-06T21:01:00+08:00</published><updated>2017-05-06T21:01:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Button-part.html</id><summary type="html">&lt;p&gt;以下為Button的解說&lt;/p&gt;
+
+
+&lt;h3&gt;按鈕零件:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Button/part/button.png" width="450" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;按鈕功用:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;1和2為接通狀態,3和4為接通狀態,但1和2跟3和4沒接通&lt;br/&gt;
+只有在按下按鈕時1和2跟3和4才會接通&lt;br/&gt;
+電路圖(Circuit diagram)&lt;br/&gt;
+&lt;img src="./../data/Arduino/Button/part/Circuit diagram.png" width="450" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;Button裝備方式:&lt;/h3&gt;
+&lt;p&gt;3.3V連接在B1,在不按下按鈕時,3.3V不會通道B3和B4,只會跟B2接通&lt;br/&gt;
+11腳位為接收訊號,在不按下時訊號為LOW,在按下時訊號為HIGH&lt;br/&gt;
+在B4接上電阻跟地線(GND),可保護11腳位不被雜訊干擾&lt;br/&gt;
+&lt;img src="./../data/Arduino/Button/part/install.png" width="450" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;Arduino範例:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Button/part/example.png" width="450" /&gt;&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Button.html"&gt;https://40423222.github.io/2017springcd_hw/blog/Arduino-Button.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;1.按鈕零件:
+&lt;a href="https://tw.bid.yahoo.com/item/6-6-5MM%E5%BE%AE%E5%8B%95%E9%96%8B%E9%97%9C-%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-%E6%8C%89%E9%8D%B5%E9%96%8B%E9%97%9C-%E8%87%A5%E5%BC%8F-%E9%8A%85%E8%85%B3-200%E5%80%8B%E4%B8%80-100035665893"&gt;https://tw.bid.yahoo.com/item/6-6-5MM%E5%BE%AE%E5%8B%95%E9%96%8B%E9%97%9C-%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-%E6%8C%89%E9%8D%B5%E9%96%8B%E9%97%9C-%E8%87%A5%E5%BC%8F-%E9%8A%85%E8%85%B3-200%E5%80%8B%E4%B8%80-100035665893&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Button/part/yahoo.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;2.按鈕功用:
+&lt;a href="https://tw.bid.yahoo.com/item/6-6-5MM%E5%BE%AE%E5%8B%95%E9%96%8B%E9%97%9C-%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-%E6%8C%89%E9%8D%B5%E9%96%8B%E9%97%9C-%E8%87%A5%E5%BC%8F-%E9%8A%85%E8%85%B3-200%E5%80%8B%E4%B8%80-100035665893"&gt;https://tw.bid.yahoo.com/item/6-6-5MM%E5%BE%AE%E5%8B%95%E9%96%8B%E9%97%9C-%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-%E6%8C%89%E9%8D%B5%E9%96%8B%E9%97%9C-%E8%87%A5%E5%BC%8F-%E9%8A%85%E8%85%B3-200%E5%80%8B%E4%B8%80-100035665893&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Button/part/yahoo.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;3.button裝備方式:
+&lt;a href="https://webduino.io/tutorials/tutorial-09-button-led.html"&gt;https://webduino.io/tutorials/tutorial-09-button-led.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Button/part/Webduino.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;4.Arduino範例:
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/"&gt;https://40423222.github.io/2017springcd_hw/blog/&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Button/part/40423222.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>LED</title><link href="./Arduino-LED.html" rel="alternate"></link><published>2017-05-06T17:44:00+08:00</published><updated>2017-05-06T17:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-LED.html</id><summary type="html">&lt;p&gt;以下為LED的解說&lt;/p&gt;
 
 
 &lt;h3&gt;LED零件:&lt;br/&gt;&lt;/h3&gt;

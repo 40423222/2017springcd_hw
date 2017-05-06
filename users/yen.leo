@@ -53,6 +53,7 @@
 <v t="leo.20170503163338.1"><vh>@edit 20170503.md</vh></v>
 <v t="leo.20170506162648.1"><vh>@edit Resistance.md</vh></v>
 <v t="leo.20170506174329.1"><vh>@edit LED.md</vh></v>
+<v t="leo.20170506210022.1"><vh>@edit Button.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
