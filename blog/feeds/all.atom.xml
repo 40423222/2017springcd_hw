@@ -101,7 +101,7 @@
 &lt;p&gt;3.電阻相關的公式:
 &lt;a href="https://www.youtube.com/watch?v=lnC6J9AplMc"&gt;https://www.youtube.com/watch?v=lnC6J9AplMc&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Resistance/reference-3.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>threeLevel_Motor</title><link href="./Arduino-threeLevel_Motor.html" rel="alternate"></link><published>2017-05-03T16:36:00+08:00</published><updated>2017-05-03T16:36:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-03:./Arduino-threeLevel_Motor.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的threeLevel_Motor實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Resistance/reference-3.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>threeLevel_cdMotor</title><link href="./Arduino-threeLevel_Motor.html" rel="alternate"></link><published>2017-05-03T16:36:00+08:00</published><updated>2017-05-03T16:36:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-03:./Arduino-threeLevel_Motor.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的threeLevel_Motor實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -113,7 +113,8 @@ Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 7447: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 三個&lt;br/&gt;
 Arduino Uno: 一個&lt;br/&gt;
-Breadboard: 兩個&lt;br/&gt;&lt;/p&gt;
+Breadboard: 兩個&lt;br/&gt;
+cdMotor: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/threeLevel_Motor/Circuit diagram.png" width="800" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
