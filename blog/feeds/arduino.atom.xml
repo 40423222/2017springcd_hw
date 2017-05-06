@@ -45,8 +45,8 @@
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
 button: 兩個&lt;br/&gt;
-330Ω Resistor: 九個&lt;br/&gt;
-10kΩ Resistor: 兩個&lt;br/&gt;
+330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 九個&lt;br/&gt;
+10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 兩個&lt;br/&gt;
 Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 7447: 一個&lt;br/&gt;
 LED燈: 三個&lt;br/&gt;
@@ -167,7 +167,7 @@ void loop() {
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
-330 Resistor: 一個&lt;br/&gt;
+330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 LED燈: 一個&lt;br/&gt;
 Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
@@ -199,7 +199,7 @@ void loop() {
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
-330 Resistor: 一個&lt;br/&gt;
+330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 LED燈: 一個&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
@@ -236,7 +236,7 @@ void loop() {
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
-10k Resistor: 一個&lt;br/&gt;
+10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 Button: 一個&lt;br/&gt;
 LED燈: 一個&lt;br/&gt;
 Arduino Uno: 一個&lt;/p&gt;
