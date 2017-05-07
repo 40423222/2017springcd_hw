@@ -149,7 +149,7 @@ Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 三個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-IC 7447-part.html"&gt;IC 7447&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-H-Seven-segment display-part.html"&gt;H-Seven-segment display&lt;/a&gt;: 一個&lt;br/&gt;
-Arduino Uno: 一個&lt;br/&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
 Breadboard: 兩個&lt;br/&gt;
 cdMotor: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
@@ -270,7 +270,7 @@ void loop() {
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
 Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
-Arduino Uno: 一個&lt;/p&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Potentiometer/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
@@ -294,14 +294,18 @@ void loop() {
 }
 &lt;/pre&gt;
 
-&lt;h3&gt;&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html"&gt;參考網站&lt;/a&gt;&lt;/h3&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab3 Fade</title><link href="./Arduino-Fade.html" rel="alternate"></link><published>2017-04-25T23:02:00+08:00</published><updated>2017-04-25T23:02:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Fade.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Fade實驗&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lab4 Potentiometer:
+&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab3 Fade</title><link href="./Arduino-Fade.html" rel="alternate"></link><published>2017-04-25T23:02:00+08:00</published><updated>2017-04-25T23:02:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Fade.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Fade實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;Wire: n個&lt;br/&gt;
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
-Arduino Uno: 一個&lt;/p&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Fade/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
@@ -331,7 +335,11 @@ void loop() {
 }
 &lt;/pre&gt;
 
-&lt;h3&gt;&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab3-led.html"&gt;參考網站&lt;/a&gt;&lt;/h3&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lad2 Button</title><link href="./Arduino-Button.html" rel="alternate"></link><published>2017-04-25T22:30:00+08:00</published><updated>2017-04-25T22:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Button.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Button實驗&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lab3 Fade:
+&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab3-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab3-led.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lad2 Button</title><link href="./Arduino-Button.html" rel="alternate"></link><published>2017-04-25T22:30:00+08:00</published><updated>2017-04-25T22:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Button.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Button實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -339,7 +347,7 @@ void loop() {
 10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Button-part.html"&gt;Button&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
-Arduino Uno: 一個&lt;/p&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Button/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
@@ -371,12 +379,16 @@ void loop() {
 }
 &lt;/pre&gt;
 
-&lt;h3&gt;&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab2-led.html"&gt;參考網站&lt;/a&gt;&lt;/h3&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lad1 Blink</title><link href="./Arduino-Blink.html" rel="alternate"></link><published>2017-04-25T20:58:00+08:00</published><updated>2017-04-25T20:58:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Blink.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED燈實驗&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lad2 Button:
+&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab2-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab2-led.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lad1 Blink</title><link href="./Arduino-Blink.html" rel="alternate"></link><published>2017-04-25T20:58:00+08:00</published><updated>2017-04-25T20:58:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Blink.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED燈實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
-Arduino Uno: 一個&lt;/p&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Blink/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
@@ -397,7 +409,11 @@ void loop() {
 }
 &lt;/pre&gt;
 
-&lt;h3&gt;&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab1-blinking-led.html"&gt;參考網站&lt;/a&gt;&lt;/h3&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>小組倉儲</title><link href="./2017spring-cd-bg7.html" rel="alternate"></link><published>2017-04-12T01:19:00+08:00</published><updated>2017-04-12T01:19:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-bg7.html</id><summary type="html">&lt;p&gt;bg7小組的內容&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lad1 Blink:
+&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab1-blinking-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab1-blinking-led.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>小組倉儲</title><link href="./2017spring-cd-bg7.html" rel="alternate"></link><published>2017-04-12T01:19:00+08:00</published><updated>2017-04-12T01:19:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-bg7.html</id><summary type="html">&lt;p&gt;bg7小組的內容&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;a href="https://github.com/40423222/2017springcd_hw"&gt;組長倉儲&lt;/a&gt;&lt;br/&gt;&lt;/h2&gt;
