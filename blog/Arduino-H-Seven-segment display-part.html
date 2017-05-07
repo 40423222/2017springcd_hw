@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Lad1 Blink - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>H-Seven-segment display - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,18 @@
 
 
 
-<link rel="canonical" href="./Arduino-Blink.html">
+<link rel="canonical" href="./Arduino-H-Seven-segment display-part.html">
 
         <meta name="author" content="40423222" />
         <meta name="keywords" content="notes,w8" />
-        <meta name="description" content="以下為Arduino Uno板的LED燈實驗" />
+        <meta name="description" content="以下為Seven-segment display的解說" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Lad1 Blink"/>
-        <meta property="og:url" content="./Arduino-Blink.html"/>
-        <meta property="og:description" content="以下為Arduino Uno板的LED燈實驗"/>
-        <meta property="article:published_time" content="2017-04-25" />
+        <meta property="og:title" content="H-Seven-segment display"/>
+        <meta property="og:url" content="./Arduino-H-Seven-segment display-part.html"/>
+        <meta property="og:description" content="以下為Seven-segment display的解說"/>
+        <meta property="article:published_time" content="2017-05-07" />
             <meta property="article:section" content="Arduino" />
             <meta property="article:tag" content="notes" />
             <meta property="article:tag" content="w8" />
@@ -135,10 +135,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Arduino-Blink.html"
+                    <a href="./Arduino-H-Seven-segment display-part.html"
                        rel="bookmark"
-                       title="Permalink to Lad1 Blink">
-                        Lad1 Blink
+                       title="Permalink to H-Seven-segment display">
+                        H-Seven-segment display
                     </a>
                 </h1>
             </header>
@@ -148,7 +148,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-25T20:58:00+08:00"> Tue 25 April 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-05-07T18:52:00+08:00"> Sun 07 May 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -162,33 +162,26 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>以下為Arduino Uno板的LED燈實驗</p>
+                <p>以下為Seven-segment display的解說</p>
 
 
-<h3>需要材料:</h3>
-<p><a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html">LED</a>: 一個<br/>
-Arduino Uno: 一個</p>
-<h3>電路圖(Circuit diagram)</h3>
-<p><img src="./../data/Arduino/Blink/Circuit diagram.png" width="480" /></p>
-<h3>程式碼(Code)</h3>
-<pre class="brush: python">
-void setup() {
-  pinMode(13,OUTPUT);
-  //13腳位為輸出
-}
-
-void loop() {
-  digitalWrite(13,HIGH);
-  //13腳位輸出HIGH
-  delay(1000);
-  //持續1秒
-  digitalWrite(13,LOW);
-  //13腳位輸出LOW
-  delay(1000);
-}
-</pre>
-
-<h3><a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab1-blinking-led.html">參考網站</a></h3>
+<h3>陽性七段顯示器零件:<br/></h3>
+<p><img src="./../data/Arduino/H-Seven-segment display/part/Seven-segment display.png" width="450" /><br/></p>
+<h3>H-Seven-segment display裝配方式:<br/></h3>
+<p><img src="./../data/Arduino/H-Seven-segment display/part/install.png" width="200" /><br/>
+連接<a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-IC 7447-part.html">IC 7447</a><br/>
+加上電阻以防顯示器燒壞<br/>
+<img src="./../data/Arduino/H-Seven-segment display/part/install-IC 7447.png" width="450" /><br/></p>
+<h3>H-Seven-segment display功用:</h3>
+<p>a~f跟p的腳位接上200電阻接地就會顯示七電顯示器的a~f跟p<br/>
+<img src="./../data/Arduino/H-Seven-segment display/part/a to f.png" width="200" /><br/></p>
+<h3>參考網站:<br/></h3>
+<p>1.陽性七段顯示器零件 和 2.H-Seven-segment display裝配方式<br/>
+<a href="https://en.wikipedia.org/wiki/Seven-segment_display">https://en.wikipedia.org/wiki/Seven-segment_display</a><br/>
+<a href="http://www.ym.edu.tw/~yhkao/iedu/electronics_03_(7447).pdf">http://www.ym.edu.tw/~yhkao/iedu/electronics_03_(7447).pdf</a><br/>
+參考對象:
+<img src="./../data/Arduino/LED/維基百科.png" width="150" />
+<img src="./../data/Arduino/IC 7447/國立陽明大學.png" width="150" /></p>
             </div>
             <!-- /.entry-content -->
         </article>
