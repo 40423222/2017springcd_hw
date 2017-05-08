@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-08T21:55:00+08:00</updated><entry><title>Lab6 Buzzer</title><link href="./Arduino-Lab6%20Buzzer.html" rel="alternate"></link><published>2017-05-08T21:55:00+08:00</published><updated>2017-05-08T21:55:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab6 Buzzer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Buzzer實驗&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-08T22:44:00+08:00</updated><entry><title>Lab7 Seven_Segments</title><link href="./Arduino-Lab7%20Seven_Segments.html" rel="alternate"></link><published>2017-05-08T22:44:00+08:00</published><updated>2017-05-08T22:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab7 Seven_Segments.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Seven_Segments實驗&lt;/p&gt;
+
+
+&lt;h3&gt;需要材料:&lt;/h3&gt;
+&lt;p&gt;Wire: n個&lt;br/&gt;
+330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 八個&lt;br/&gt;
+L-Seven-segment display: 一個&lt;br/&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
+Breadboard: 一個&lt;/p&gt;
+&lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Lab7 Seven_Segments/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
+&lt;h3&gt;程式碼(Code)&lt;/h3&gt;
+&lt;pre class="brush: python"&gt;
+//使用共陰極七段顯示器,也可用於LED排列發光
+const int NUM = 8;  //也可用#define NUM 8,但不能只打int NUM = 8;
+//使用到的腳位
+int pins[NUM] = {2, 3, 4, 5, 10, 11, 12, 13};
+//2為右上 3為上 4為點 5為右下 10為左上 11為中 12為下 13為左下
+//代表腳位顯示的位置
+#define t true //true等於HIHG,另一種寫法
+#define f false //false等於LOW,另一種寫法
+boolean data[10][NUM] = { //有十種變化(代表數字0~9),腳位有NUM個(8個輸出)
+  {t, t, f, t, t, f, t, t}, // 顯示的號碼0
+  {t, f, f, t, f, f, f, f}, // 1
+  {t, t, f, f, f, t, t, t}, // 2
+  {t, t, f, t, f, t, t, f}, // 3
+  {t, f, f, t, t, t, f, f}, // 4
+  {f, t, f, t, t, t, t, f}, // 5
+  {f, t, f, t, t, t, t, t}, // 6
+  {t, t, f, t, t, f, f, f}, // 7
+  {t, t, f, t, t, t, t, t}, // 8
+  {t, t, f, t, t, t, t, f}, // 9
+};
+
+void setup() {                
+  for(int i = 0; i &lt; NUM; i++){
+    //i大於NUM時結束for迴圈,因i &lt; NUM
+    pinMode(pins[i], OUTPUT);
+    //i為0時pins為2,最多到7(i &lt; NUM),也就是pins = (2~5,10~13)
+  } 
+}
+
+void writeNumber(int n){
+  //建立一個名稱為writeNumber(n)的公式
+  for(int i = 0; i &lt; NUM; i++){
+    digitalWrite(pins[i], data[n][i] == t ? HIGH : LOW);
+    //n在下方,data[幾種][輸出]一種內有8個輸出
+    //這一種的輸出,有t(true)的為HIGH不是為LOW
+  }
+}
+
+void loop() {
+  for(int n = 0; n &lt;= 9; n++){
+    writeNumber(n);
+    //將建立的writeNumber(n)放到這
+    delay(1000);
+  }
+}
+&lt;/pre&gt;
+
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lab7 Seven_Segments:
+&lt;a href="http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html"&gt;http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/參考對象/葉難.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab6 Buzzer</title><link href="./Arduino-Lab6%20Buzzer.html" rel="alternate"></link><published>2017-05-08T21:55:00+08:00</published><updated>2017-05-08T21:55:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab6 Buzzer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Buzzer實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;

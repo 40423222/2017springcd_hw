@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Resistance - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>Lab7 Seven_Segments - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,18 @@
 
 
 
-<link rel="canonical" href="./Arduino-Resistance.html">
+<link rel="canonical" href="./Arduino-Lab7 Seven_Segments.html">
 
         <meta name="author" content="40423222" />
         <meta name="keywords" content="notes,w8" />
-        <meta name="description" content="以下為Resistance的解說" />
+        <meta name="description" content="以下為Arduino Uno板的Seven_Segments實驗" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Resistance"/>
-        <meta property="og:url" content="./Arduino-Resistance.html"/>
-        <meta property="og:description" content="以下為Resistance的解說"/>
-        <meta property="article:published_time" content="2017-05-06" />
+        <meta property="og:title" content="Lab7 Seven_Segments"/>
+        <meta property="og:url" content="./Arduino-Lab7 Seven_Segments.html"/>
+        <meta property="og:description" content="以下為Arduino Uno板的Seven_Segments實驗"/>
+        <meta property="article:published_time" content="2017-05-08" />
             <meta property="article:section" content="Arduino" />
             <meta property="article:tag" content="notes" />
             <meta property="article:tag" content="w8" />
@@ -135,10 +135,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Arduino-Resistance.html"
+                    <a href="./Arduino-Lab7 Seven_Segments.html"
                        rel="bookmark"
-                       title="Permalink to Resistance">
-                        Resistance
+                       title="Permalink to Lab7 Seven_Segments">
+                        Lab7 Seven_Segments
                     </a>
                 </h1>
             </header>
@@ -148,7 +148,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-06T14:52:00+08:00"> Sat 06 May 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-05-08T22:44:00+08:00"> Mon 08 May 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -162,47 +162,71 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>以下為Resistance的解說</p>
+                <p>以下為Arduino Uno板的Seven_Segments實驗</p>
 
 
-<h3>電阻零件:<br/></h3>
-<p>1.膜式電阻結構圖<br/>
-<img src="./../data/Arduino/Resistance/part.png" width="450" /><br/></p>
-<p>2.線繞電阻結構圖<br/>
-<img src="./../data/Arduino/Resistance/part-2.png" width="450" /><br/></p>
-<h3>電阻的值:<br/></h3>
-<p>1.色環<br/>
-<img src="./../data/Arduino/Resistance/color ring.png" width="450" /><br/><br/></p>
-<p>2.顏色<br/>
-<img src="./../data/Arduino/Resistance/color.png" width="450" /><br/><br/></p>
-<p>範例:<br/>
-<img src="./../data/Arduino/Resistance/example-2.png" width="650" /><br/>
-<img src="./../data/Arduino/Resistance/example-3.png" width="650" /><br/></p>
-<h3>電阻相關的公式:<br/></h3>
-<p>P = 功率 , I = 電流 , V = 電壓 , R = 電阻 , G = 電導<br/></p>
-<p>1.功率消耗<br/>
-<img src="./../data/Arduino/Resistance/P.png" width="150" /><br/></p>
-<p>2.電壓降<br/>
-<img src="./../data/Arduino/Resistance/V.png" width="150" /><br/>
-也可寫成歐姆定律<br/>
-<img src="./../data/Arduino/Resistance/R.png" width="150" /><br/></p>
-<p>3.電導(Conductance)<br/>
-<img src="./../data/Arduino/Resistance/G.png" width="150" /><br/></p>
-<p>範例:<br/>
-<img src="./../data/Arduino/Resistance/example.png" width="650" /><br/></p>
-<h3>參考網站:<br/></h3>
-<p>1.電阻零件:
-<a href="http://www.shimeng.org/zh/know/21.html">http://www.shimeng.org/zh/know/21.html</a><br/>
+<h3>需要材料:</h3>
+<p>Wire: n個<br/>
+330Ω <a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html">Resistor</a>: 八個<br/>
+L-Seven-segment display: 一個<br/>
+<a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html">Arduino Uno</a>: 一個<br/>
+Breadboard: 一個</p>
+<h3>電路圖(Circuit diagram)</h3>
+<p><img src="./../data/Arduino/Lab7 Seven_Segments/Circuit diagram.png" width="480" /></p>
+<h3>程式碼(Code)</h3>
+<pre class="brush: python">
+//使用共陰極七段顯示器,也可用於LED排列發光
+const int NUM = 8;  //也可用#define NUM 8,但不能只打int NUM = 8;
+//使用到的腳位
+int pins[NUM] = {2, 3, 4, 5, 10, 11, 12, 13};
+//2為右上 3為上 4為點 5為右下 10為左上 11為中 12為下 13為左下
+//代表腳位顯示的位置
+#define t true //true等於HIHG,另一種寫法
+#define f false //false等於LOW,另一種寫法
+boolean data[10][NUM] = { //有十種變化(代表數字0~9),腳位有NUM個(8個輸出)
+  {t, t, f, t, t, f, t, t}, // 顯示的號碼0
+  {t, f, f, t, f, f, f, f}, // 1
+  {t, t, f, f, f, t, t, t}, // 2
+  {t, t, f, t, f, t, t, f}, // 3
+  {t, f, f, t, t, t, f, f}, // 4
+  {f, t, f, t, t, t, t, f}, // 5
+  {f, t, f, t, t, t, t, t}, // 6
+  {t, t, f, t, t, f, f, f}, // 7
+  {t, t, f, t, t, t, t, t}, // 8
+  {t, t, f, t, t, t, t, f}, // 9
+};
+
+void setup() {                
+  for(int i = 0; i < NUM; i++){
+    //i大於NUM時結束for迴圈,因i < NUM
+    pinMode(pins[i], OUTPUT);
+    //i為0時pins為2,最多到7(i < NUM),也就是pins = (2~5,10~13)
+  } 
+}
+
+void writeNumber(int n){
+  //建立一個名稱為writeNumber(n)的公式
+  for(int i = 0; i < NUM; i++){
+    digitalWrite(pins[i], data[n][i] == t ? HIGH : LOW);
+    //n在下方,data[幾種][輸出]一種內有8個輸出
+    //這一種的輸出,有t(true)的為HIGH不是為LOW
+  }
+}
+
+void loop() {
+  for(int n = 0; n <= 9; n++){
+    writeNumber(n);
+    //將建立的writeNumber(n)放到這
+    delay(1000);
+  }
+}
+</pre>
+
+<h3>參考網站:</h3>
+<p>Lab7 Seven_Segments:
+<a href="http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html">http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html</a><br/>
 參考對象:
-<img src="./../data/Arduino/Resistance/reference.png" width="150" /><br/></p>
-<p>2.電阻的值:
-<a href="https://www.youtube.com/watch?v=cWEJMusT-hI">https://www.youtube.com/watch?v=cWEJMusT-hI</a><br/>
-參考對象:
-<img src="./../data/Arduino/Resistance/reference-2.png" width="150" /><br/></p>
-<p>3.電阻相關的公式:
-<a href="https://www.youtube.com/watch?v=lnC6J9AplMc">https://www.youtube.com/watch?v=lnC6J9AplMc</a><br/>
-參考對象:
-<img src="./../data/Arduino/Resistance/reference-3.png" width="150" /></p>
+<img src="./../data/Arduino/參考對象/葉難.png" width="150" /></p>
             </div>
             <!-- /.entry-content -->
         </article>
