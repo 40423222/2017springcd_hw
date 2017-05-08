@@ -1,5 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/arduino.atom.xml" rel="self"></link><id>./</id><updated>2017-05-08T20:48:00+08:00</updated><entry><title>Lab5 LED_Bar_Graph</title><link href="./Arduino-Lab5%20LED_Bar_Graph.html" rel="alternate"></link><published>2017-05-08T20:48:00+08:00</published><updated>2017-05-08T20:48:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab5 LED_Bar_Graph.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED_Bar_Graph實驗&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/arduino.atom.xml" rel="self"></link><id>./</id><updated>2017-05-08T21:55:00+08:00</updated><entry><title>Lab6 Buzzer</title><link href="./Arduino-Lab6%20Buzzer.html" rel="alternate"></link><published>2017-05-08T21:55:00+08:00</published><updated>2017-05-08T21:55:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab6 Buzzer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Buzzer實驗&lt;/p&gt;
+
+
+&lt;h3&gt;需要材料:&lt;/h3&gt;
+&lt;p&gt;Wire: n個&lt;br/&gt;
+Buzzer: 一個&lt;br/&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
+Breadboard: 一個&lt;/p&gt;
+&lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Lab6 Buzzer/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
+&lt;h3&gt;程式碼(Code)&lt;/h3&gt;
+&lt;pre class="brush: python"&gt;
+#include "pitches.h" //這就是最重要的重點
+int melody[] {
+  NOTE_C5,NOTE_D5,NOTE_B0 
+}; //吵死了
+int duration = 500;
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  for (int thisNote = 0; thisNote &lt; 3; thisNote++) {
+    tone(11,melody[thisNote],duration);
+    //是的 uno 板子只有 3,5,6,9,10,11 才有 PWM
+//不過 tone() 內部是用 timer 控制的，所以不限定任何 pin
+//analogWrite() 的頻率是固定的(500Hz)，沒辦法輸出不同音階的聲音
+    delay(500);
+  }
+  delay(2000);
+}
+&lt;/pre&gt;
+
+&lt;h3&gt;注意&lt;/h3&gt;
+&lt;p&gt;在本程式的資料夾內建立pitches.h,如下圖&lt;br/&gt;
+&lt;img src="./../data/Arduino/Lab6 Buzzer/pitches.h.png" width="740" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;pitches.h的內容&lt;br/&gt;
+&lt;pre class="brush: python"&gt;
+/&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;
+ * Public Constants
+ &lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;/&lt;/p&gt;
+&lt;h1&gt;define NOTE_B0  31&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C1  33&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS1 35&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D1  37&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS1 39&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E1  41&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F1  44&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS1 46&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G1  49&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS1 52&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A1  55&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS1 58&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B1  62&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C2  65&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS2 69&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D2  73&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS2 78&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E2  82&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F2  87&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS2 93&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G2  98&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS2 104&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A2  110&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS2 117&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B2  123&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C3  131&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS3 139&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D3  147&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS3 156&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E3  165&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F3  175&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS3 185&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G3  196&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS3 208&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A3  220&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS3 233&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B3  247&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C4  262&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS4 277&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D4  294&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS4 311&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E4  330&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F4  349&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS4 370&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G4  392&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS4 415&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A4  440&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS4 466&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B4  494&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C5  523&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS5 554&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D5  587&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS5 622&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E5  659&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F5  698&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS5 740&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G5  784&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS5 831&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A5  880&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS5 932&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B5  988&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C6  1047&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS6 1109&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D6  1175&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS6 1245&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E6  1319&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F6  1397&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS6 1480&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G6  1568&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS6 1661&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A6  1760&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS6 1865&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B6  1976&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C7  2093&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS7 2217&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D7  2349&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS7 2489&lt;/h1&gt;
+&lt;h1&gt;define NOTE_E7  2637&lt;/h1&gt;
+&lt;h1&gt;define NOTE_F7  2794&lt;/h1&gt;
+&lt;h1&gt;define NOTE_FS7 2960&lt;/h1&gt;
+&lt;h1&gt;define NOTE_G7  3136&lt;/h1&gt;
+&lt;h1&gt;define NOTE_GS7 3322&lt;/h1&gt;
+&lt;h1&gt;define NOTE_A7  3520&lt;/h1&gt;
+&lt;h1&gt;define NOTE_AS7 3729&lt;/h1&gt;
+&lt;h1&gt;define NOTE_B7  3951&lt;/h1&gt;
+&lt;h1&gt;define NOTE_C8  4186&lt;/h1&gt;
+&lt;h1&gt;define NOTE_CS8 4435&lt;/h1&gt;
+&lt;h1&gt;define NOTE_D8  4699&lt;/h1&gt;
+&lt;h1&gt;define NOTE_DS8 4978&lt;/h1&gt;
+&lt;/pre&gt;
+
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lab6 Buzzer:
+&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab6.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab6.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab5 LED_Bar_Graph</title><link href="./Arduino-Lab5%20LED_Bar_Graph.html" rel="alternate"></link><published>2017-05-08T20:48:00+08:00</published><updated>2017-05-08T20:48:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab5 LED_Bar_Graph.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED_Bar_Graph實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
