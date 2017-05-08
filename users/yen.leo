@@ -56,7 +56,8 @@
 <v t="leo.20170506210022.1"><vh>@edit Button.md</vh></v>
 <v t="leo.20170507180036.1"><vh>@edit IC 7447.md</vh></v>
 <v t="leo.20170507184900.1"><vh>@edit Seven-segment display.md</vh></v>
-<v t="yen.20170108171733.81"><vh>@path pages</vh>
+<v t="leo.20170508204621.1"><vh>@edit Lab5 LED_Bar_Graph.md</vh></v>
+<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>

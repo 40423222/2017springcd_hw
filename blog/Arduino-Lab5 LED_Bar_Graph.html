@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Authors - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>Lab5 LED_Bar_Graph - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,22 @@
 
 
 
+<link rel="canonical" href="./Arduino-Lab5 LED_Bar_Graph.html">
 
-        <meta name="author" content="KMOL" />
+        <meta name="author" content="40423222" />
+        <meta name="keywords" content="notes,w8" />
+        <meta name="description" content="以下為Arduino Uno板的LED_Bar_Graph實驗" />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="2017Spring 協同產品設計實習 (虎尾科大MDE)"/>
-        <meta property="og:url" content="."/>
-        <meta property="og:description" content="2017Spring 協同產品設計實習 (虎尾科大MDE)"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Lab5 LED_Bar_Graph"/>
+        <meta property="og:url" content="./Arduino-Lab5 LED_Bar_Graph.html"/>
+        <meta property="og:description" content="以下為Arduino Uno板的LED_Bar_Graph實驗"/>
+        <meta property="article:published_time" content="2017-05-08" />
+            <meta property="article:section" content="Arduino" />
+            <meta property="article:tag" content="notes" />
+            <meta property="article:tag" content="w8" />
+            <meta property="article:author" content="40423222" />
 
 
     <!-- Bootstrap -->
@@ -99,7 +106,7 @@
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="./category/arduino.html">Arduino</a>
                         </li>
                         <li >
@@ -124,8 +131,96 @@
     <div class="row">
         <div class="col-sm-9">
 
-    <h1>Authors on 2017Spring 協同產品設計實習 (虎尾科大MDE)</h1>
-        <li><a href="./author/40423222.html">40423222</a> (12)</li>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./Arduino-Lab5 LED_Bar_Graph.html"
+                       rel="bookmark"
+                       title="Permalink to Lab5 LED_Bar_Graph">
+                        Lab5 LED_Bar_Graph
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-05-08T20:48:00+08:00"> Mon 08 May 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/notes.html">notes</a>
+        /
+	<a href="./tag/w8.html">w8</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>以下為Arduino Uno板的LED_Bar_Graph實驗</p>
+
+
+<h3>需要材料:</h3>
+<p>Wire: n個<br/>
+330Ω <a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html">Resistor</a>: 六個<br/>
+<a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html">LED</a>: 六個<br/>
+<a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html">Arduino Uno</a>: 一個<br/>
+Breadboard: 一個</p>
+<h3>電路圖(Circuit diagram)</h3>
+<p><img src="./../data/Arduino/Lab5 LED_Bar_Graph/Circuit diagram.png" width="480" /></p>
+<h3>程式碼(Code)</h3>
+<pre class="brush: python">
+const int ledCount = 6; //有沒有在前面加const都沒差
+int ledPins[] = { //腳位能重複輸入
+2, 3, 7, 10, 11, 13};
+
+void setup() {
+  //Serial.begin(9600);
+  for (int thisLed = 0; thisLed < ledCount; thisLed++) { //不能等於10因為0也算一個數
+    pinMode(ledPins[thisLed],OUTPUT);
+  }
+}
+
+void loop() {
+  for (int thisLed = 0; thisLed < ledCount; thisLed++) {
+    int ledSerial = analogRead(thisLed); //analog用於(類比訊號)
+    //digital用於(數位訊號) Read(讀取這值)
+    //Serial.println(ledSerial); //要查看thisLed的值,
+    //就要丟到for裡才行,因為thisLed只會在for裡執行
+    digitalWrite(ledPins[thisLed], HIGH);
+    delay(300);
+    digitalWrite(ledPins[thisLed], LOW);
+  }
+  for (int thisLed = ledCount-1; thisLed >= 0; thisLed--) {
+    int ledSerial = analogRead(thisLed);
+    Serial.println(ledSerial);
+    digitalWrite(ledPins[thisLed], HIGH);
+    delay(300);
+      if (thisLed == 0) { //在for內使用if
+    delay(1000);
+  }
+    else {
+      digitalWrite(ledPins[thisLed], LOW);
+    }
+  }
+}
+</pre>
+
+<h3>參考網站:</h3>
+<p>Lab5 LED_Bar_Graph:
+<a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab5-led-bar-graph.html">http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab5-led-bar-graph.html</a><br/>
+參考對象:
+<img src="./../data/Arduino/Cooper Maa.png" width="150" /></p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>

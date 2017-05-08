@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-07T18:52:00+08:00</updated><entry><title>H-Seven-segment display</title><link href="./Arduino-H-Seven-segment%20display-part.html" rel="alternate"></link><published>2017-05-07T18:52:00+08:00</published><updated>2017-05-07T18:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-07:./Arduino-H-Seven-segment display-part.html</id><summary type="html">&lt;p&gt;以下為Seven-segment display的解說&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-08T20:48:00+08:00</updated><entry><title>Lab5 LED_Bar_Graph</title><link href="./Arduino-Lab5%20LED_Bar_Graph.html" rel="alternate"></link><published>2017-05-08T20:48:00+08:00</published><updated>2017-05-08T20:48:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab5 LED_Bar_Graph.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED_Bar_Graph實驗&lt;/p&gt;
+
+
+&lt;h3&gt;需要材料:&lt;/h3&gt;
+&lt;p&gt;Wire: n個&lt;br/&gt;
+330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 六個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 六個&lt;br/&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
+Breadboard: 一個&lt;/p&gt;
+&lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Lab5 LED_Bar_Graph/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
+&lt;h3&gt;程式碼(Code)&lt;/h3&gt;
+&lt;pre class="brush: python"&gt;
+const int ledCount = 6; //有沒有在前面加const都沒差
+int ledPins[] = { //腳位能重複輸入
+2, 3, 7, 10, 11, 13};
+
+void setup() {
+  //Serial.begin(9600);
+  for (int thisLed = 0; thisLed &lt; ledCount; thisLed++) { //不能等於10因為0也算一個數
+    pinMode(ledPins[thisLed],OUTPUT);
+  }
+}
+
+void loop() {
+  for (int thisLed = 0; thisLed &lt; ledCount; thisLed++) {
+    int ledSerial = analogRead(thisLed); //analog用於(類比訊號)
+    //digital用於(數位訊號) Read(讀取這值)
+    //Serial.println(ledSerial); //要查看thisLed的值,
+    //就要丟到for裡才行,因為thisLed只會在for裡執行
+    digitalWrite(ledPins[thisLed], HIGH);
+    delay(300);
+    digitalWrite(ledPins[thisLed], LOW);
+  }
+  for (int thisLed = ledCount-1; thisLed &gt;= 0; thisLed--) {
+    int ledSerial = analogRead(thisLed);
+    Serial.println(ledSerial);
+    digitalWrite(ledPins[thisLed], HIGH);
+    delay(300);
+      if (thisLed == 0) { //在for內使用if
+    delay(1000);
+  }
+    else {
+      digitalWrite(ledPins[thisLed], LOW);
+    }
+  }
+}
+&lt;/pre&gt;
+
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;Lab5 LED_Bar_Graph:
+&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab5-led-bar-graph.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab5-led-bar-graph.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>H-Seven-segment display</title><link href="./Arduino-H-Seven-segment%20display-part.html" rel="alternate"></link><published>2017-05-07T18:52:00+08:00</published><updated>2017-05-07T18:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-07:./Arduino-H-Seven-segment display-part.html</id><summary type="html">&lt;p&gt;以下為Seven-segment display的解說&lt;/p&gt;
 
 
 &lt;h3&gt;陽性七段顯示器零件:&lt;br/&gt;&lt;/h3&gt;
