@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T03:09:00+08:00</updated><entry><title>HTML-texts</title><link href="./HTML-texts.html" rel="alternate"></link><published>2017-05-17T03:09:00+08:00</published><updated>2017-05-17T03:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-17:./HTML-texts.html</id><summary type="html">&lt;p&gt;以下為HTML的texts說明&lt;/p&gt;
+
+
+&lt;h1&gt;關於texts指令說明&lt;/h1&gt;
+&lt;h3&gt;表格說明:&lt;/h3&gt;
+&lt;p&gt;&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;&lt;th class=boldw&gt;標籤&lt;th class=boldw&gt;說明及範例
+&lt;tr&gt;&lt;td&gt;&amp;lt;B&amp;gt;&lt;td&gt;將所標記的文字&lt;b&gt;字型加粗
+&lt;tr&gt;&lt;td&gt;&amp;lt;I&amp;gt;&lt;td&gt;將所標記的文字&lt;i&gt;變成斜體
+&lt;tr&gt;&lt;td&gt;&amp;lt;U&amp;gt;&lt;td&gt;將所標記的文字&lt;u&gt;加上底線&lt;/u&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;STRIKE&amp;gt;&lt;td&gt;將所標記的文字&lt;strike&gt;畫線刪除&lt;/strike&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;BIG&amp;gt;&lt;td&gt;將所標記的文字&lt;big&gt;放大&lt;/big&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SMALL&amp;gt;&lt;td&gt;將所標記的文字&lt;small&gt;縮小&lt;/small&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SUP&amp;gt;&lt;td&gt;將所標記的文字&lt;sup&gt;變成上標&lt;/sup&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SUB&amp;gt;&lt;td&gt;將所標記的文字&lt;sub&gt;變成下標&lt;/sub&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;EM&amp;gt;&lt;td&gt;將所標記的文字&lt;em&gt;加以強調&lt;/em&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;STRONG&amp;gt;&lt;td&gt;將所標記的文字&lt;strong&gt;加重語氣&lt;/strong&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;TT&amp;gt;&lt;td&gt;將所標記的文字以 &lt;tt&gt; Teletype font &lt;/tt&gt;字型表現，常用在固定大小的文字上
+&lt;tr&gt;&lt;td&gt;&amp;lt;CODE&amp;gt;&lt;td&gt;將所標記的文字以 &lt;code&gt; Code Fragment &lt;/tt&gt;字型表現，常用在程式碼的敘述上
+&lt;tr&gt;&lt;td&gt;&amp;lt;VAR&amp;gt;&lt;td&gt;將所標記的文字以 &lt;var&gt; Variable &lt;/var&gt;字型表現，常用在算數式的變數上
+&lt;/table&gt;&lt;/p&gt;
+&lt;h3&gt;表格指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;&lt;th class=boldw&gt;標籤&lt;th class=boldw&gt;說明及範例
+&lt;tr&gt;&lt;td&gt;&amp;lt;B&amp;gt;&lt;td&gt;將所標記的文字&lt;b&gt;字型加粗
+&lt;tr&gt;&lt;td&gt;&amp;lt;I&amp;gt;&lt;td&gt;將所標記的文字&lt;i&gt;變成斜體
+&lt;tr&gt;&lt;td&gt;&amp;lt;U&amp;gt;&lt;td&gt;將所標記的文字&lt;u&gt;加上底線&lt;/u&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;STRIKE&amp;gt;&lt;td&gt;將所標記的文字&lt;strike&gt;畫線刪除&lt;/strike&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;BIG&amp;gt;&lt;td&gt;將所標記的文字&lt;big&gt;放大&lt;/big&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SMALL&amp;gt;&lt;td&gt;將所標記的文字&lt;small&gt;縮小&lt;/small&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SUP&amp;gt;&lt;td&gt;將所標記的文字&lt;sup&gt;變成上標&lt;/sup&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SUB&amp;gt;&lt;td&gt;將所標記的文字&lt;sub&gt;變成下標&lt;/sub&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;EM&amp;gt;&lt;td&gt;將所標記的文字&lt;em&gt;加以強調&lt;/em&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;STRONG&amp;gt;&lt;td&gt;將所標記的文字&lt;strong&gt;加重語氣&lt;/strong&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;TT&amp;gt;&lt;td&gt;將所標記的文字以 &lt;tt&gt; Teletype font &lt;/tt&gt;字型表現，常用在固定大小的文字上
+&lt;tr&gt;&lt;td&gt;&amp;lt;CODE&amp;gt;&lt;td&gt;將所標記的文字以 &lt;code&gt; Code Fragment &lt;/tt&gt;字型表現，常用在程式碼的敘述上
+&lt;tr&gt;&lt;td&gt;&amp;lt;VAR&amp;gt;&lt;td&gt;將所標記的文字以 &lt;var&gt; Variable &lt;/var&gt;字型表現，常用在算數式的變數上
+&lt;/table&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;換行指令&lt;/h2&gt;
+&lt;h3&gt;列如:&lt;/h3&gt;
+&lt;p&gt;&lt;html&gt;
+&lt;body&gt;
+利用&amp;lt;br&amp;gt;來切換&lt;br&gt;到下一行
+&lt;p&gt;新的一個段落，會和前面的文字隔開一列&lt;hr&gt;換行並加上水平線
+&lt;blockquote&gt;文字會自成一個段落，並以縮排的方式表現出來，而且與上下文章保留一段空白&lt;/blockquote&gt;
+靠右視窗寬度50%無陰影粗10:
+&lt;hr align=right  width="50%" noshade size=10&gt;
+以上為換行指令範例
+&lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;
+&lt;h3&gt;指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;html&gt;
+&lt;body&gt;
+利用＆lt;br＆gt;來切換&lt;br&gt;到下一行
+&lt;p&gt;新的一個段落，會和前面的文字隔開一列&lt;hr&gt;換行並加上水平線
+&lt;blockquote&gt;文字會自成一個段落，並以縮排的方式表現出來，而且與上下文章保留一段空白&lt;/blockquote&gt;
+靠右視窗寬度50%無陰影粗10:
+&lt;hr align=right  width="50%" noshade size=10&gt;
+以上為換行指令範例
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/pre&gt;
+為了不讓「小於」及「大於」符號被瀏覽器解譯，因此要寫成「＆lt;」和「＆gt;」。相關的對照表，會在後續章節說明。&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/HTML/texts/hr.png" width="800" /&gt;&lt;/p&gt;
+&lt;h2&gt;字體大小和位置&lt;/h2&gt;
+&lt;h3&gt;列如:&lt;/h3&gt;
+&lt;p&gt;&lt;h1 align="left"&gt;H1在左邊&lt;/h1&gt;
+&lt;p&gt;
+&lt;h6 align="right"&gt;H6在右邊&lt;/h6&gt;
+&lt;p&gt;
+&lt;h3 align="center"&gt;範圍:H1到H6,H1為最大,H6為最小&lt;/h3&gt;
+&lt;p&gt;
+&lt;FONT SIZE=1&gt;字體大小為1&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT SIZE=7&gt;字體大小為7&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT SIZE=3&gt;可輸入比7大的值,但最大的顯示只會到7&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT SIZE=-3&gt;可輸入負數來縮小字體大小&lt;/FONT&gt;
+&lt;p&gt;
+FACE="Symbol" 你便可以顯示羅馬字母 &lt;FONT FACE="Symbol"&gt;a, b, c, d&lt;/FONT&gt;
+&lt;p&gt;
+用 FACE="標楷體" 來顯示 &lt;FONT FACE="標楷體"&gt;中文標楷體&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT  COLOR=#RRGGBB&gt;字的顏色&lt;/FONT&gt;&lt;/p&gt;
+&lt;h3&gt;指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;h1 align="left"&gt;H1在左邊&lt;/h1&gt;
+&lt;p&gt;
+&lt;h6 align="right"&gt;H6在右邊&lt;/h6&gt;
+&lt;p&gt;
+&lt;h3 align="center"&gt;範圍:H1到H6,H1為最大,H6為最小&lt;/h3&gt;
+&lt;p&gt;
+&lt;FONT SIZE=1&gt;字體大小為1&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT SIZE=7&gt;字體大小為7&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT SIZE=3&gt;可輸入比7大的值,但最大的顯示只會到7&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT SIZE=-3&gt;可輸入負數來縮小字體大小&lt;/FONT&gt;
+&lt;p&gt;
+FACE="Symbol" 你便可以顯示羅馬字母 &lt;FONT FACE="Symbol"&gt;a, b, c, d&lt;/FONT&gt;
+&lt;p&gt;
+用 FACE="標楷體" 來顯示 &lt;FONT FACE="標楷體"&gt;中文標楷體&lt;/FONT&gt;
+&lt;p&gt;
+&lt;FONT  COLOR=#RRGGBB&gt;字的顏色&lt;/FONT&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/HTML/texts/Hn.png" width="800" /&gt;
+&lt;p&gt;
+&lt;img src="./../data/HTML/texts/FONT.png" width="800" /&gt;&lt;/p&gt;
+&lt;h2&gt;數學公式&lt;/h2&gt;
+&lt;h3&gt;列如:&lt;/h3&gt;
+&lt;p&gt;一個 d 維的高斯機率密度函數（Gaussian probability density function）可以表示成：
+&lt;center&gt;
+g(x, &lt;font face=symbol&gt;m&lt;/font&gt;, &lt;font face=symbol&gt;S&lt;/font&gt;) = 
+(2&lt;font face=symbol&gt;p&lt;/font&gt;)&lt;sup&gt;-d/2&lt;/sup&gt; &lt;em&gt;
+det(&lt;font face=symbol&gt;S&lt;/font&gt;)&lt;sup&gt;-0.5&lt;/sup&gt; &lt;/em&gt;
+exp[-(x-&lt;font face=symbol&gt;m&lt;/font&gt;)&lt;sup&gt;T&lt;/sup&gt;&lt;font face=symbol&gt;S&lt;/font&gt;&lt;sup&gt;-1&lt;/sup&gt;(x-&lt;font face=symbol&gt;m&lt;/font&gt;)/2]
+&lt;/center&gt;
+其中 &lt;font face=symbol&gt;m&lt;/font&gt; 是此高斯機率密度函數的平均向量（Mean vector），
+&lt;font face=symbol&gt;S&lt;/font&gt; 則是其共變異矩陣（Covariance matrix）&lt;/p&gt;
+&lt;h3&gt;指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+一個 d 維的高斯機率密度函數（Gaussian probability density function）可以表示成：
+&lt;center&gt;
+g(x, &lt;font face=symbol&gt;m&lt;/font&gt;, &lt;font face=symbol&gt;S&lt;/font&gt;) = 
+(2&lt;font face=symbol&gt;p&lt;/font&gt;)&lt;sup&gt;-d/2&lt;/sup&gt; &lt;em&gt;
+det(&lt;font face=symbol&gt;S&lt;/font&gt;)&lt;sup&gt;-0.5&lt;/sup&gt; &lt;/em&gt;
+exp[-(x-&lt;font face=symbol&gt;m&lt;/font&gt;)&lt;sup&gt;T&lt;/sup&gt;&lt;font face=symbol&gt;S&lt;/font&gt;&lt;sup&gt;-1&lt;/sup&gt;(x-&lt;font face=symbol&gt;m&lt;/font&gt;)/2]
+&lt;/center&gt;
+其中 &lt;font face=symbol&gt;m&lt;/font&gt; 是此高斯機率密度函數的平均向量（Mean vector），
+&lt;font face=symbol&gt;S&lt;/font&gt; 則是其共變異矩陣（Covariance matrix）
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;跑馬燈&lt;/h2&gt;
+&lt;h3&gt;列如:&lt;/h3&gt;
+&lt;p&gt;&lt;marquee direction=left  bgcolor="#ff9999" behavior=scroll    scrollamount=10 scrolldelay=100&gt;嗨！我是一號跑馬燈&lt;/marquee&gt; 
+&lt;marquee direction=right bgcolor="#99ff99" behavior=slide     scrollamount=20 scrolldelay=100&gt;Hello！我是二號跑馬燈&lt;/marquee&gt; 
+&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt; &lt;/p&gt;
+&lt;h3&gt;指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;marquee direction=left  bgcolor="#ff9999" behavior=scroll    scrollamount=10 scrolldelay=100&gt;嗨！我是一號跑馬燈&lt;/marquee&gt; 
+&lt;marquee direction=right bgcolor="#99ff99" behavior=slide     scrollamount=20 scrolldelay=100&gt;Hello！我是二號跑馬燈&lt;/marquee&gt; 
+&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt; 
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;表格說明:&lt;/h3&gt;
+&lt;p&gt;&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;&lt;td class=boldw&gt;標籤&lt;td colspan=2&gt;marquee
+&lt;tr&gt;&lt;td class=boldw&gt;功能&lt;td colspan=2&gt;移動字體
+&lt;tr&gt;&lt;td class=boldw&gt;語法&lt;td colspan=2&gt;&amp;lt;marquee&amp;gt;跑馬燈內容&amp;lt;/marquee&amp;gt;
+&lt;tr&gt;&lt;td class=boldw rowspan=6&gt;屬性及說明
+&lt;tr&gt;&lt;td&gt;direction=left|right|center&lt;td&gt;水平線位置的設定，可選擇置左、置中、置右三種方式
+&lt;tr&gt;&lt;td&gt;bgcolor="#ff9999|#99ff99|#9999ff"&lt;td&gt;背景顏色的設定，可選擇紅、綠、藍的顏色
+&lt;tr&gt;&lt;td&gt;behavior=scroll|slide|alternate&lt;td&gt;字體移動方式，可選擇連續左到右、跑一次、左右來回
+&lt;tr&gt;&lt;td&gt;scrollamount=n n=1~無限&lt;td&gt;移動速度為n,n為數值&lt;br /&gt;
+&lt;tr&gt;&lt;td&gt;height="a" width="b"&lt;td&gt;高度跟寬度設定&lt;br /&gt;
+&lt;tr&gt;&lt;td class=boldw&gt;其它說明&lt;td colspan=2&gt;有關跑馬燈的屬性和其意義，讀者大概可以從上述範例猜出來吧？（若真的猜不出來，到搜尋引擎找找，應該可以找到答案。） 
+&lt;/table&gt;&lt;/p&gt;
+&lt;h3&gt;表格指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;&lt;td class=boldw&gt;標籤&lt;td colspan=2&gt;hr
+&lt;tr&gt;&lt;td class=boldw&gt;功能&lt;td colspan=2&gt;劃水平線
+&lt;tr&gt;&lt;td class=boldw&gt;語法&lt;td colspan=2&gt;&amp;amp;#60hr&amp;amp;#62
+&lt;tr&gt;&lt;td class=boldw rowspan=5&gt;屬性及說明
+&lt;tr&gt;&lt;td&gt;ALIGN=left|right|center&lt;td&gt;水平線位置的設定，可選擇置左、置中、置右三種方式
+&lt;tr&gt;&lt;td&gt;NOSHADE&lt;td&gt;沒有陰影效果的水平線
+&lt;tr&gt;&lt;td&gt;SIZE=n&lt;td&gt;水平線的粗細，n 值為整數 
+&lt;tr&gt;&lt;td&gt;WIDTH=n|p%&lt;td&gt;水平線的長度，可給 Pixel 值也可給百分比值。&lt;br /&gt;
+&lt;tr&gt;&lt;td class=boldw&gt;其它說明&lt;td colspan=2&gt;水平線的顏色跟文件的背景顏色是有相關性的，當背景顏色是白色時，水平線是灰色；當背景顏色是藍色時，水平線是淺藍色。 
+&lt;/table&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;顯示程式碼&lt;/h2&gt;
+&lt;h3&gt;列如:&lt;/h3&gt;
+&lt;p&gt;PRE 所產生的效果:
+&lt;pre&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/pre&gt;
+XMP 所產生的效果:
+&lt;xmp&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/xmp&gt;&lt;/p&gt;
+&lt;h3&gt;指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+PRE 所產生的效果:
+&lt;pre&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/pre&gt;
+XMP 所產生的效果:
+&lt;xmp&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt; 
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;&lt;td class=boldw&gt;講解&lt;td colspan=2&gt;&amp;lt;pre&amp;gt; (Preformatted Text) 所標記起來的是預先已排版過的文章，使其以原貌表現在網頁上。雖然 &amp;ltpre&amp;gt; 可以將所標記的文字以原貌呈現出來，但文章中如果有 HTML 的標籤，瀏覽器仍會對其進行處理後，才會呈現出來。但如果我們只是要顯示標籤但不想要處理顯現標籤時，就可以改用 &amp;ltXMP&amp;gt; 標籤，此標籤會將所有其它的 HTML 標籤原封不動地呈現出來
+&lt;/table&gt;
+
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;texts: 
+&lt;a href="https://mirlab.org/jang/books/html/"&gt;https://mirlab.org/jang/books/html/&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/HTML/張智星.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry></feed>
