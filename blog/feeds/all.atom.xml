@@ -3,6 +3,7 @@
 
 
 &lt;h1&gt;關於texts指令說明&lt;/h1&gt;
+&lt;h2&gt;小工具&lt;/h2&gt;
 &lt;h3&gt;表格說明:&lt;/h3&gt;
 &lt;p&gt;&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
 &lt;tr&gt;&lt;th class=boldw&gt;標籤&lt;th class=boldw&gt;說明及範例
@@ -109,9 +110,92 @@ FACE="Symbol" 你便可以顯示羅馬字母 &lt;FONT FACE="Symbol"&gt;a, b, c, 
 &lt;p&gt;
 &lt;FONT  COLOR=#RRGGBB&gt;字的顏色&lt;/FONT&gt;
 &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../data/HTML/texts/Hn.png" width="800" /&gt;
-&lt;p&gt;
-&lt;img src="./../data/HTML/texts/FONT.png" width="800" /&gt;&lt;/p&gt;
+&lt;h3&gt;表格說明hn:&lt;/h3&gt;
+&lt;p&gt;&lt;table border="10" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;hn, n=1, 2, 3, 4, 5, 6&lt;td style="text-align:center"&gt;&amp;lt;hn&amp;gt;要顯示的內容&amp;lt;/hn&amp;gt;&lt;td style="text-align:center"&gt;ALIGN = left|right|center
+&lt;/table&gt;&lt;/p&gt;
+&lt;h3&gt;表格指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;table border="10" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;hn, n=1, 2, 3, 4, 5, 6&lt;td style="text-align:center"&gt;&amp;lt;hn&amp;gt;要顯示的內容&amp;lt;/hn&amp;gt;&lt;td style="text-align:center"&gt;ALIGN = left|right|center
+&lt;/table&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;表格說明FONT:&lt;/h3&gt;
+&lt;p&gt;&lt;table border="10" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;FONT&lt;td style="text-align:center"&gt;&amp;lt;FONT&amp;gt;要顯示的內容&amp;lt;/FONT&amp;gt;&lt;td style="text-align:center"&gt;SIZE=string, COLOR=#RRGGBB, FACE=font names
+&lt;/table&gt;&lt;/p&gt;
+&lt;h3&gt;表格指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;table border="10" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;&lt;td style="text-align:center" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;FONT&lt;td style="text-align:center"&gt;&amp;lt;FONT&amp;gt;要顯示的內容&amp;lt;/FONT&amp;gt;&lt;td style="text-align:center"&gt;SIZE=string, COLOR=#RRGGBB, FACE=font names
+&lt;/table&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;表格說明表格:&lt;/h3&gt;
+&lt;p&gt;&lt;table border="5" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;
+&lt;td style="text-align:center" &gt;table&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="2" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;table&amp;gt;要顯示的內容&amp;lt;/table&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;tr&amp;gt;代表下一行&amp;lt;/tr&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="7" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;td style="text-align:center"&gt;border為表格線粗&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;width為整個表格的寬度&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;background為控制背景圖片&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;colspan這格橫跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;rowspan這格垂直跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;align字體在這格的水平放置位置&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;valign字體在這格的垂直放置位置&lt;/td&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;h3&gt;表格指令:&lt;/h3&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;table border="5" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;
+&lt;td style="text-align:center" &gt;table&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="2" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;table&amp;gt;要顯示的內容&amp;lt;/table&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;tr&amp;gt;代表下一行&amp;lt;/tr&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="7" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;td style="text-align:center"&gt;border為表格線粗&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;width為整個表格的寬度&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;background為控制背景圖片&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;colspan這格橫跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;rowspan這格垂直跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;align字體在這格的水平放置位置&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;valign字體在這格的垂直放置位置&lt;/td&gt;
+&lt;/table&gt;
+&lt;/pre&gt;&lt;/p&gt;
 &lt;h2&gt;數學公式&lt;/h2&gt;
 &lt;h3&gt;列如:&lt;/h3&gt;
 &lt;p&gt;一個 d 維的高斯機率密度函數（Gaussian probability density function）可以表示成：
@@ -202,7 +286,7 @@ XMP 所產生的效果:
 &lt;tr&gt;&lt;td class=boldw&gt;講解&lt;td colspan=2&gt;&amp;lt;pre&amp;gt; (Preformatted Text) 所標記起來的是預先已排版過的文章，使其以原貌表現在網頁上。雖然 &amp;ltpre&amp;gt; 可以將所標記的文字以原貌呈現出來，但文章中如果有 HTML 的標籤，瀏覽器仍會對其進行處理後，才會呈現出來。但如果我們只是要顯示標籤但不想要處理顯現標籤時，就可以改用 &amp;ltXMP&amp;gt; 標籤，此標籤會將所有其它的 HTML 標籤原封不動地呈現出來
 &lt;/table&gt;
 
-&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;h3&gt;參考網站&lt;/h3&gt;
 &lt;p&gt;texts: 
 &lt;a href="https://mirlab.org/jang/books/html/"&gt;https://mirlab.org/jang/books/html/&lt;/a&gt;&lt;br/&gt;
 參考對象:

@@ -12,6 +12,10 @@ Author: 40423222
 # 關於texts指令說明
 
 
+
+## 小工具
+
+
 ### 表格說明:
 <table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white>
 <tr><th class=boldw>標籤<th class=boldw>說明及範例
@@ -137,10 +141,103 @@ FACE="Symbol" 你便可以顯示羅馬字母 <FONT FACE="Symbol">a, b, c, d</FON
 <FONT  COLOR=#RRGGBB>字的顏色</FONT>
 </pre>
 
+### 表格說明hn:
+<table border="10" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C'>標籤</td><td style="text-align:center" bgcolor='#FFD78C'>語法</td><td style="text-align:center" bgcolor='#FFD78C'>屬性</td>
+<tr>
+<td style="text-align:center">hn, n=1, 2, 3, 4, 5, 6<td style="text-align:center">&lt;hn&gt;要顯示的內容&lt;/hn&gt;<td style="text-align:center">ALIGN = left|right|center
+</table>
 
-<img src="./../data/HTML/texts/Hn.png" width="800" />
-<p>
-<img src="./../data/HTML/texts/FONT.png" width="800" />
+
+### 表格指令:
+<pre class="brush: python">
+<table border="10" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C'>標籤</td><td style="text-align:center" bgcolor='#FFD78C'>語法</td><td style="text-align:center" bgcolor='#FFD78C'>屬性</td>
+<tr>
+<td style="text-align:center">hn, n=1, 2, 3, 4, 5, 6<td style="text-align:center">&lt;hn&gt;要顯示的內容&lt;/hn&gt;<td style="text-align:center">ALIGN = left|right|center
+</table>
+</pre>
+
+
+### 表格說明FONT:
+<table border="10" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C'>標籤</td><td style="text-align:center" bgcolor='#FFD78C'>語法</td><td style="text-align:center" bgcolor='#FFD78C'>屬性</td>
+<tr>
+<td style="text-align:center">FONT<td style="text-align:center">&lt;FONT&gt;要顯示的內容&lt;/FONT&gt;<td style="text-align:center">SIZE=string, COLOR=#RRGGBB, FACE=font names
+</table>
+
+
+### 表格指令:
+<pre class="brush: python">
+<table border="10" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C'>標籤</td><td style="text-align:center" bgcolor='#FFD78C'>語法</td><td style="text-align:center" bgcolor='#FFD78C'>屬性</td>
+<tr>
+<td style="text-align:center">FONT<td style="text-align:center">&lt;FONT&gt;要顯示的內容&lt;/FONT&gt;<td style="text-align:center">SIZE=string, COLOR=#RRGGBB, FACE=font names
+</table>
+</pre>
+
+
+### 表格說明表格:
+<table border="5" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C'>標籤</td>
+<td style="text-align:center" >table</td>
+<tr>
+<td style="text-align:center" rowspan="2" bgcolor='#FFD78C'>語法</td>
+<td style="text-align:center">&lt;table&gt;要顯示的內容&lt;/table&gt;</td>
+<tr>
+<td style="text-align:center">&lt;tr&gt;代表下一行&lt;/tr&gt;</td>
+<tr>
+<td style="text-align:center" rowspan="7" bgcolor='#FFD78C'>屬性</td>
+<td style="text-align:center">border為表格線粗</td>
+<tr>
+<td style="text-align:center">width為整個表格的寬度</td>
+<tr>
+<td style="text-align:center">background為控制背景圖片</td>
+<tr>
+<td style="text-align:center">colspan這格橫跨幾格</td>
+<tr>
+<td style="text-align:center">rowspan這格垂直跨幾格</td>
+<tr>
+<td style="text-align:center">align字體在這格的水平放置位置</td>
+<tr>
+<td style="text-align:center">valign字體在這格的垂直放置位置</td>
+</table>
+
+
+### 表格指令:
+<pre class="brush: python">
+<table border="5" width="100%" align="center">
+<tr>
+<td  style="text-align:center" bgcolor='#FFD78C'>標籤</td>
+<td style="text-align:center" >table</td>
+<tr>
+<td style="text-align:center" rowspan="2" bgcolor='#FFD78C'>語法</td>
+<td style="text-align:center">&lt;table&gt;要顯示的內容&lt;/table&gt;</td>
+<tr>
+<td style="text-align:center">&lt;tr&gt;代表下一行&lt;/tr&gt;</td>
+<tr>
+<td style="text-align:center" rowspan="7" bgcolor='#FFD78C'>屬性</td>
+<td style="text-align:center">border為表格線粗</td>
+<tr>
+<td style="text-align:center">width為整個表格的寬度</td>
+<tr>
+<td style="text-align:center">background為控制背景圖片</td>
+<tr>
+<td style="text-align:center">colspan這格橫跨幾格</td>
+<tr>
+<td style="text-align:center">rowspan這格垂直跨幾格</td>
+<tr>
+<td style="text-align:center">align字體在這格的水平放置位置</td>
+<tr>
+<td style="text-align:center">valign字體在這格的垂直放置位置</td>
+</table>
+</pre>
+
 
 
 ## 數學公式
@@ -257,7 +354,7 @@ XMP 所產生的效果:
 </table>
 
 
-### 參考網站:
+### 參考網站
 texts: 
 <a href="https://mirlab.org/jang/books/html/">https://mirlab.org/jang/books/html/</a><br/>
 參考對象:
