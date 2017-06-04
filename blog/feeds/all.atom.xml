@@ -1,5 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T03:09:00+08:00</updated><entry><title>HTML-texts</title><link href="./HTML-texts.html" rel="alternate"></link><published>2017-05-17T03:09:00+08:00</published><updated>2017-05-17T03:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-17:./HTML-texts.html</id><summary type="html">&lt;p&gt;以下為HTML的texts說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-04T13:41:00+08:00</updated><entry><title>small exam</title><link href="./Arduino-small%20exam.html" rel="alternate"></link><published>2017-06-04T13:41:00+08:00</published><updated>2017-06-04T13:41:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-04:./Arduino-small exam.html</id><summary type="html">&lt;p&gt;以下為電子實習的exam&lt;/p&gt;
+
+
+&lt;h3&gt;需要材料:&lt;/h3&gt;
+&lt;p&gt;Wire: n個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Button-part.html"&gt;Button&lt;/a&gt;: 一個&lt;br/&gt;
+330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 五個&lt;br/&gt;
+1kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
+10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
+Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
+NPN 9013: 一個&lt;br&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 五個&lt;br/&gt;
+Breadboard: 一個
+DC Motor: 一個&lt;/p&gt;
+&lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/small exam/levelMotor.png" width="800" /&gt;&lt;/p&gt;
+&lt;h3&gt;程式碼(Code)&lt;/h3&gt;
+&lt;pre class="brush: python"&gt;
+int potenPin = A0; // 可變電阻
+int buttonPin = 2; // 按鈕
+int ledPins [] {3, 4, 5, 6, 7}; // led燈
+int motorPin = 9; // 馬達
+// 六段變速 100/300/500/700/900/1000
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(potenPin, INPUT);
+  pinMode(buttonPin, INPUT);
+  for(int L = 0; L &lt; 5; L++) {
+    pinMode(ledPins[L], OUTPUT);
+  }
+  pinMode(motorPin, OUTPUT);
+}
+
+void loop() {
+  int motorValue = analogRead(potenPin);
+  Serial.println(motorValue);
+  int bStop = digitalRead(buttonPin);
+  Serial.println(bStop); 
+  if (bStop == LOW) {
+  if (motorValue &lt; 100) {
+    analogWrite(motorPin, 0);
+    for (int L = 0; L &lt; 5; L++) {
+      digitalWrite(ledPins[L], LOW);
+    }
+  }
+  else if (motorValue &lt; 300) {
+    analogWrite(motorPin, 300);
+    for (int L = 0; L &lt; 1; L++) {
+      digitalWrite(ledPins[L], HIGH);
+    }
+    for (int L = 1; L &lt; 5; L++) {
+      digitalWrite(ledPins[L], LOW);
+    }
+  }
+  else if (motorValue &lt; 500) {
+    analogWrite(motorPin, 500);
+    for (int L = 0; L &lt; 2; L++) {
+      digitalWrite(ledPins[L], HIGH);
+    }
+    for (int L = 2; L &lt; 5; L++) {
+      digitalWrite(ledPins[L], LOW);
+    }
+  }
+  else if (motorValue &lt; 700) {
+    analogWrite(motorPin, 700);
+    for (int L = 0; L &lt; 3; L++) {
+      digitalWrite(ledPins[L], HIGH);
+    }
+    for (int L = 3; L &lt; 5; L++) {
+      digitalWrite(ledPins[L], LOW);
+    }
+  }
+  else if (motorValue &lt; 900) {
+    analogWrite(motorPin, 900);
+    for (int L = 0; L &lt; 4; L++) {
+      digitalWrite(ledPins[L], HIGH);
+    }
+    for (int L = 4; L &lt; 5; L++) {
+      digitalWrite(ledPins[L], LOW);
+    }
+  }
+  else if (900 &lt; motorValue) {
+    analogWrite(motorPin, 1000);
+    for (int L = 0; L &lt; 5; L++) {
+      digitalWrite(ledPins[L], HIGH);
+    }
+  }
+ }
+ else if (bStop == HIGH) {
+  for(int s = 0; s &lt; 5; s++) {
+  digitalWrite(ledPins[s],LOW);
+  }
+  digitalWrite(motorPin,LOW);
+  delay(100);
+ }
+}
+&lt;/pre&gt;
+
+&lt;h3&gt;影片(Video)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/220175906" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/220175906"&gt;small exam&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;levelMotor:
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-threeLevel_Motor.html"&gt;https://40423222.github.io/2017springcd_hw/blog/Arduino-threeLevel_Motor.html&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/"&gt;https://40423222.github.io/2017springcd_hw/blog/&lt;/a&gt;&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/Button/part/40423222.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="exam"></category></entry><entry><title>HTML-texts</title><link href="./HTML-texts.html" rel="alternate"></link><published>2017-05-17T03:09:00+08:00</published><updated>2017-05-17T03:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-17:./HTML-texts.html</id><summary type="html">&lt;p&gt;以下為HTML的texts說明&lt;/p&gt;
 
 
 &lt;h1&gt;關於texts指令說明&lt;/h1&gt;
@@ -741,7 +850,7 @@ Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-H-Seven-segment display-part.html"&gt;H-Seven-segment display&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
 Breadboard: 兩個&lt;br/&gt;
-cdMotor: 一個&lt;/p&gt;
+DC Motor: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/threeLevel_Motor/Circuit diagram.png" width="800" /&gt;&lt;/p&gt;
 &lt;h3&gt;程式碼(Code)&lt;/h3&gt;
