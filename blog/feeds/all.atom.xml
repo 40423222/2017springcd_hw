@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-07T11:13:00+08:00</updated><entry><title>字體效果</title><link href="./Font.html" rel="alternate"></link><published>2017-06-07T11:13:00+08:00</published><updated>2017-06-07T11:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-07:./Font.html</id><summary type="html">&lt;p&gt;以下為HTML的Font說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-07T11:56:00+08:00</updated><entry><title>換行指令</title><link href="./Paragraphs.html" rel="alternate"></link><published>2017-06-07T11:56:00+08:00</published><updated>2017-06-07T11:56:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-07:./Paragraphs.html</id><summary type="html">&lt;p&gt;以下為HTML的Paragraphs說明&lt;/p&gt;
+
+
+&lt;h2&gt;&lt;B&gt;切換到下一行:&lt;/B&gt;&lt;/h2&gt;
+&lt;pre&gt;
+利用&amp;lt;br&amp;gt;來切換&lt;br&gt;到下一行
+&lt;/pre&gt;
+
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+利用＆lt;br＆gt;來切換&lt;br&gt;到下一行
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;注意: 為了不讓「小於」及「大於」符號被瀏覽器解譯，因此要寫成「＆lt;」和「＆gt;」&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;B&gt;新的段落:&lt;/B&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+123&lt;p&gt;新的一個段落，會和前面的文字隔開一列&lt;/p&gt;123
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+123&lt;p&gt;新的一個段落，會和前面的文字隔開一列&lt;/p&gt;123
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;b&gt;新增切線分開:&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+123&lt;hr&gt;換行並加上水平線
+&lt;br&gt;
+靠右視窗寬度50%無陰影粗10:
+&lt;hr width="50%" size="10" noshade="" align="right"&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+123&lt;hr&gt;換行並加上水平線
+&lt;br&gt;
+靠右視窗寬度50%無陰影粗10:
+&lt;hr width="50%" size="10" noshade="" align="right"&gt;
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;注意: 不知為何,無法控制線(hr):陰影跟粗細&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/HTML/texts/hr.png" width="800" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;b&gt;集中:&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+123&lt;blockquote&gt;文字會自成一個段落，並以縮排的方式表現出來，而且與上下文章保留一段空白&lt;/blockquote&gt;123
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+123&lt;blockquote&gt;文字會自成一個段落，並以縮排的方式表現出來，而且與上下文章保留一段空白&lt;/blockquote&gt;123
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="HTML"></category></entry><entry><title>字體效果</title><link href="./Font.html" rel="alternate"></link><published>2017-06-07T11:13:00+08:00</published><updated>2017-06-07T11:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-07:./Font.html</id><summary type="html">&lt;p&gt;以下為HTML的Font說明&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;B&gt;字體大小:&lt;/B&gt;&lt;/h2&gt;

@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Lab6 Buzzer - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>換行指令 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,21 +10,21 @@
 
 
 
-<link rel="canonical" href="./Arduino-Lab6 Buzzer.html">
+<link rel="canonical" href="./Paragraphs.html">
 
         <meta name="author" content="40423222" />
-        <meta name="keywords" content="notes,w8" />
-        <meta name="description" content="以下為Arduino Uno板的Buzzer實驗" />
+        <meta name="keywords" content="notes,HTML" />
+        <meta name="description" content="以下為HTML的Paragraphs說明" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Lab6 Buzzer"/>
-        <meta property="og:url" content="./Arduino-Lab6 Buzzer.html"/>
-        <meta property="og:description" content="以下為Arduino Uno板的Buzzer實驗"/>
-        <meta property="article:published_time" content="2017-05-08" />
-            <meta property="article:section" content="Arduino" />
+        <meta property="og:title" content="換行指令"/>
+        <meta property="og:url" content="./Paragraphs.html"/>
+        <meta property="og:description" content="以下為HTML的Paragraphs說明"/>
+        <meta property="article:published_time" content="2017-06-07" />
+            <meta property="article:section" content="HTML" />
             <meta property="article:tag" content="notes" />
-            <meta property="article:tag" content="w8" />
+            <meta property="article:tag" content="HTML" />
             <meta property="article:author" content="40423222" />
 
 
@@ -106,13 +106,13 @@
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="./category/arduino.html">Arduino</a>
                         </li>
                         <li >
                             <a href="./category/course.html">Course</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./category/html.html">Html</a>
                         </li>
             </ul>
@@ -138,10 +138,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Arduino-Lab6 Buzzer.html"
+                    <a href="./Paragraphs.html"
                        rel="bookmark"
-                       title="Permalink to Lab6 Buzzer">
-                        Lab6 Buzzer
+                       title="Permalink to 換行指令">
+                        換行指令
                     </a>
                 </h1>
             </header>
@@ -151,7 +151,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-08T21:55:00+08:00"> Mon 08 May 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-06-07T11:56:00+08:00"> Wed 07 June 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -161,149 +161,69 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/notes.html">notes</a>
         /
-	<a href="./tag/w8.html">w8</a>
+	<a href="./tag/html.html">HTML</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>以下為Arduino Uno板的Buzzer實驗</p>
+                <p>以下為HTML的Paragraphs說明</p>
 
 
-<h3>需要材料:</h3>
-<p>Wire: n個<br/>
-Buzzer: 一個<br/>
-<a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html">Arduino Uno</a>: 一個<br/>
-Breadboard: 一個</p>
-<h3>電路圖(Circuit diagram)</h3>
-<p><img src="./../data/Arduino/Lab6 Buzzer/Circuit diagram.png" width="480" /></p>
-<h3>程式碼(Code)</h3>
-<pre class="brush: python">
-#include "pitches.h" //這就是最重要的重點
-int melody[] {
-  NOTE_C5,NOTE_D5,NOTE_B0 
-}; //吵死了
-int duration = 500;
-
-void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {
-  for (int thisNote = 0; thisNote < 3; thisNote++) {
-    tone(11,melody[thisNote],duration);
-    //是的 uno 板子只有 3,5,6,9,10,11 才有 PWM
-//不過 tone() 內部是用 timer 控制的，所以不限定任何 pin
-//analogWrite() 的頻率是固定的(500Hz)，沒辦法輸出不同音階的聲音
-    delay(500);
-  }
-  delay(2000);
-}
+<h2><B>切換到下一行:</B></h2>
+<pre>
+利用&lt;br&gt;來切換<br>到下一行
 </pre>
 
-<h3>注意</h3>
-<p>在本程式的資料夾內建立pitches.h,如下圖<br/>
-<img src="./../data/Arduino/Lab6 Buzzer/pitches.h.png" width="740" /><br/></p>
-<p>pitches.h的內容<br/>
-<pre class="brush: python">
-/<strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong>
- * Public Constants
- <strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong>/</p>
-<h1>define NOTE_B0  31</h1>
-<h1>define NOTE_C1  33</h1>
-<h1>define NOTE_CS1 35</h1>
-<h1>define NOTE_D1  37</h1>
-<h1>define NOTE_DS1 39</h1>
-<h1>define NOTE_E1  41</h1>
-<h1>define NOTE_F1  44</h1>
-<h1>define NOTE_FS1 46</h1>
-<h1>define NOTE_G1  49</h1>
-<h1>define NOTE_GS1 52</h1>
-<h1>define NOTE_A1  55</h1>
-<h1>define NOTE_AS1 58</h1>
-<h1>define NOTE_B1  62</h1>
-<h1>define NOTE_C2  65</h1>
-<h1>define NOTE_CS2 69</h1>
-<h1>define NOTE_D2  73</h1>
-<h1>define NOTE_DS2 78</h1>
-<h1>define NOTE_E2  82</h1>
-<h1>define NOTE_F2  87</h1>
-<h1>define NOTE_FS2 93</h1>
-<h1>define NOTE_G2  98</h1>
-<h1>define NOTE_GS2 104</h1>
-<h1>define NOTE_A2  110</h1>
-<h1>define NOTE_AS2 117</h1>
-<h1>define NOTE_B2  123</h1>
-<h1>define NOTE_C3  131</h1>
-<h1>define NOTE_CS3 139</h1>
-<h1>define NOTE_D3  147</h1>
-<h1>define NOTE_DS3 156</h1>
-<h1>define NOTE_E3  165</h1>
-<h1>define NOTE_F3  175</h1>
-<h1>define NOTE_FS3 185</h1>
-<h1>define NOTE_G3  196</h1>
-<h1>define NOTE_GS3 208</h1>
-<h1>define NOTE_A3  220</h1>
-<h1>define NOTE_AS3 233</h1>
-<h1>define NOTE_B3  247</h1>
-<h1>define NOTE_C4  262</h1>
-<h1>define NOTE_CS4 277</h1>
-<h1>define NOTE_D4  294</h1>
-<h1>define NOTE_DS4 311</h1>
-<h1>define NOTE_E4  330</h1>
-<h1>define NOTE_F4  349</h1>
-<h1>define NOTE_FS4 370</h1>
-<h1>define NOTE_G4  392</h1>
-<h1>define NOTE_GS4 415</h1>
-<h1>define NOTE_A4  440</h1>
-<h1>define NOTE_AS4 466</h1>
-<h1>define NOTE_B4  494</h1>
-<h1>define NOTE_C5  523</h1>
-<h1>define NOTE_CS5 554</h1>
-<h1>define NOTE_D5  587</h1>
-<h1>define NOTE_DS5 622</h1>
-<h1>define NOTE_E5  659</h1>
-<h1>define NOTE_F5  698</h1>
-<h1>define NOTE_FS5 740</h1>
-<h1>define NOTE_G5  784</h1>
-<h1>define NOTE_GS5 831</h1>
-<h1>define NOTE_A5  880</h1>
-<h1>define NOTE_AS5 932</h1>
-<h1>define NOTE_B5  988</h1>
-<h1>define NOTE_C6  1047</h1>
-<h1>define NOTE_CS6 1109</h1>
-<h1>define NOTE_D6  1175</h1>
-<h1>define NOTE_DS6 1245</h1>
-<h1>define NOTE_E6  1319</h1>
-<h1>define NOTE_F6  1397</h1>
-<h1>define NOTE_FS6 1480</h1>
-<h1>define NOTE_G6  1568</h1>
-<h1>define NOTE_GS6 1661</h1>
-<h1>define NOTE_A6  1760</h1>
-<h1>define NOTE_AS6 1865</h1>
-<h1>define NOTE_B6  1976</h1>
-<h1>define NOTE_C7  2093</h1>
-<h1>define NOTE_CS7 2217</h1>
-<h1>define NOTE_D7  2349</h1>
-<h1>define NOTE_DS7 2489</h1>
-<h1>define NOTE_E7  2637</h1>
-<h1>define NOTE_F7  2794</h1>
-<h1>define NOTE_FS7 2960</h1>
-<h1>define NOTE_G7  3136</h1>
-<h1>define NOTE_GS7 3322</h1>
-<h1>define NOTE_A7  3520</h1>
-<h1>define NOTE_AS7 3729</h1>
-<h1>define NOTE_B7  3951</h1>
-<h1>define NOTE_C8  4186</h1>
-<h1>define NOTE_CS8 4435</h1>
-<h1>define NOTE_D8  4699</h1>
-<h1>define NOTE_DS8 4978</h1>
-</pre>
+<h3>指令</h3>
+<p><pre>
+<xmp>
+利用＆lt;br＆gt;來切換<br>到下一行
+</xmp>
+</pre></p>
+<p>注意: 為了不讓「小於」及「大於」符號被瀏覽器解譯，因此要寫成「＆lt;」和「＆gt;」</p>
+<hr>
 
-<h3>參考網站:</h3>
-<p>Lab6 Buzzer:
-<a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab6.html">http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab6.html</a><br/>
-參考對象:
-<img src="./../data/Arduino/Cooper Maa.png" width="150" /></p>
+<h2><B>新的段落:</B></h2>
+<p><pre>
+123<p>新的一個段落，會和前面的文字隔開一列</p>123
+</pre></p>
+<h3>指令</h3>
+<p><pre>
+<xmp>
+123<p>新的一個段落，會和前面的文字隔開一列</p>123
+</xmp>
+</pre></p>
+<hr>
+
+<h2><b>新增切線分開:</b></h2>
+<p><pre>
+123<hr>換行並加上水平線
+<br>
+靠右視窗寬度50%無陰影粗10:
+<hr width="50%" size="10" noshade="" align="right">
+</pre></p>
+<h3>指令</h3>
+<p><pre>
+<xmp>
+123<hr>換行並加上水平線
+<br>
+靠右視窗寬度50%無陰影粗10:
+<hr width="50%" size="10" noshade="" align="right">
+</xmp>
+</pre></p>
+<p>注意: 不知為何,無法控制線(hr):陰影跟粗細</p>
+<p><img src="./../data/HTML/texts/hr.png" width="800" /></p>
+<hr>
+
+<h2><b>集中:</b></h2>
+<p><pre>
+123<blockquote>文字會自成一個段落，並以縮排的方式表現出來，而且與上下文章保留一段空白</blockquote>123
+</pre></p>
+<h3>指令</h3>
+<p><pre>
+<xmp>
+123<blockquote>文字會自成一個段落，並以縮排的方式表現出來，而且與上下文章保留一段空白</blockquote>123
+</xmp>
+</pre></p>
             </div>
             <!-- /.entry-content -->
         </article>
