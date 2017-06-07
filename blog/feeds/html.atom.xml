@@ -1,5 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T03:09:00+08:00</updated><entry><title>HTML-texts</title><link href="./HTML-texts.html" rel="alternate"></link><published>2017-05-17T03:09:00+08:00</published><updated>2017-05-17T03:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-17:./HTML-texts.html</id><summary type="html">&lt;p&gt;以下為HTML的texts說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-06-07T11:13:00+08:00</updated><entry><title>字體效果</title><link href="./Font.html" rel="alternate"></link><published>2017-06-07T11:13:00+08:00</published><updated>2017-06-07T11:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-07:./Font.html</id><summary type="html">&lt;p&gt;以下為HTML的Font說明&lt;/p&gt;
+
+
+&lt;h2&gt;&lt;B&gt;字體大小:&lt;/B&gt;&lt;/h2&gt;
+&lt;pre&gt;
+&lt;h1 align="left"&gt;H1在左邊&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;h6 align="right"&gt;H6在右邊&lt;/h6&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;h3 align="center"&gt;範圍:H1到H6,H1為最大,H6為最小&lt;/h3&gt;
+&lt;p&gt;
+&lt;font size="1"&gt;字體大小為1&lt;/font&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;font size="7"&gt;字體大小為7&lt;/font&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;font size="3"&gt;可輸入比7大的值,但最大的顯示只會到7&lt;/font&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;font size="-3"&gt;可輸入負數來縮小字體大小&lt;/font&gt;
+&lt;/p&gt;
+&lt;/pre&gt;
+
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+&lt;h1 align="left"&gt;H1在左邊&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;h6 align="right"&gt;H6在右邊&lt;/h6&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;h3 align="center"&gt;範圍:H1到H6,H1為最大,H6為最小&lt;/h3&gt;
+&lt;p&gt;
+&lt;font size="1"&gt;字體大小為1&lt;/font&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;font size="7"&gt;字體大小為7&lt;/font&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;font size="3"&gt;可輸入比7大的值,但最大的顯示只會到7&lt;/font&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;font size="-3"&gt;可輸入負數來縮小字體大小&lt;/font&gt;
+&lt;/p&gt;
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;table width="100%" border="10" align="center"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;標籤&lt;/td&gt;&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;語法&lt;/td&gt;&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;屬性&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td style="text-align:center"&gt;hn, n=1, 2, 3, 4, 5, 6&lt;/td&gt;&lt;td style="text-align:center"&gt;&lt;hn&gt;要顯示的內容&lt;/hn&gt;&lt;/td&gt;&lt;td style="text-align:center"&gt;ALIGN = left|right|center
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;B&gt;顏色:&lt;/B&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;span style="background-color: #ffff00"&gt;字幕後方加上黃色&lt;/span&gt;
+&lt;br&gt;
+&lt;font color="#RRGGBB"&gt;字的顏色&lt;/font&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+&lt;span style="background-color: #ffff00"&gt;字幕後方加上黃色&lt;/span&gt;
+&lt;br&gt;
+&lt;font color="#RRGGBB"&gt;字的顏色&lt;/font&gt;
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;table width="100%" border="10" align="center"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;標籤&lt;/td&gt;&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;語法&lt;/td&gt;&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;屬性&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td style="text-align:center"&gt;FONT&lt;/td&gt;&lt;td style="text-align:center"&gt;&lt;FONT&gt;要顯示的內容&lt;/FONT&gt;&lt;/td&gt;&lt;td style="text-align:center"&gt;SIZE=string, COLOR=#RRGGBB, FACE=font names
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;b&gt;字型:&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+FACE="Symbol" 你便可以顯示羅馬字母 &lt;font face="Symbol"&gt;a, b, c, d&lt;/font&gt;
+&lt;br&gt;
+用 FACE="標楷體" 來顯示 &lt;font face="標楷體"&gt;中文標楷體&lt;/font&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+FACE="Symbol" 你便可以顯示羅馬字母 &lt;font face="Symbol"&gt;a, b, c, d&lt;/font&gt;
+&lt;br&gt;
+用 FACE="標楷體" 來顯示 &lt;font face="標楷體"&gt;中文標楷體&lt;/font&gt;
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;b&gt;其他效果:&lt;/b&gt;&lt;/h2&gt;
+&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;&lt;th class=boldw&gt;標籤&lt;th class=boldw&gt;說明及範例
+&lt;tr&gt;&lt;td&gt;&amp;lt;B&amp;gt;&lt;td&gt;將所標記的文字&lt;b&gt;字型加粗
+&lt;tr&gt;&lt;td&gt;&amp;lt;I&amp;gt;&lt;td&gt;將所標記的文字&lt;i&gt;變成斜體
+&lt;tr&gt;&lt;td&gt;&amp;lt;U&amp;gt;&lt;td&gt;將所標記的文字&lt;u&gt;加上底線&lt;/u&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;STRIKE&amp;gt;&lt;td&gt;將所標記的文字&lt;strike&gt;畫線刪除&lt;/strike&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;BIG&amp;gt;&lt;td&gt;將所標記的文字&lt;big&gt;放大&lt;/big&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SMALL&amp;gt;&lt;td&gt;將所標記的文字&lt;small&gt;縮小&lt;/small&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SUP&amp;gt;&lt;td&gt;將所標記的文字&lt;sup&gt;變成上標&lt;/sup&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;SUB&amp;gt;&lt;td&gt;將所標記的文字&lt;sub&gt;變成下標&lt;/sub&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;EM&amp;gt;&lt;td&gt;將所標記的文字&lt;em&gt;加以強調&lt;/em&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;STRONG&amp;gt;&lt;td&gt;將所標記的文字&lt;strong&gt;加重語氣&lt;/strong&gt;
+&lt;tr&gt;&lt;td&gt;&amp;lt;TT&amp;gt;&lt;td&gt;將所標記的文字以 &lt;tt&gt; Teletype font &lt;/tt&gt;字型表現，常用在固定大小的文字上
+&lt;tr&gt;&lt;td&gt;&amp;lt;CODE&amp;gt;&lt;td&gt;將所標記的文字以 &lt;code&gt; Code Fragment &lt;/tt&gt;字型表現，常用在程式碼的敘述上
+&lt;tr&gt;&lt;td&gt;&amp;lt;VAR&amp;gt;&lt;td&gt;將所標記的文字以 &lt;var&gt; Variable &lt;/var&gt;字型表現，常用在算數式的變數上
+&lt;/table&gt;</summary><category term="notes"></category><category term="HTML"></category></entry><entry><title>HTML-texts</title><link href="./HTML-texts.html" rel="alternate"></link><published>2017-05-17T03:09:00+08:00</published><updated>2017-05-17T03:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-17:./HTML-texts.html</id><summary type="html">&lt;p&gt;以下為HTML的texts說明&lt;/p&gt;
 
 
 &lt;h1&gt;關於texts指令說明&lt;/h1&gt;
@@ -290,4 +394,4 @@ XMP 所產生的效果:
 &lt;p&gt;texts: 
 &lt;a href="https://mirlab.org/jang/books/html/"&gt;https://mirlab.org/jang/books/html/&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/HTML/張智星.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry></feed>
+&lt;img src="./../data/HTML/張智星.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="HTML"></category></entry></feed>

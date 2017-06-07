@@ -5,35 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-04T14:00:14-00:00</lastmod>
+<lastmod>2017-06-07T23:52:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-04T14:00:14-00:00</lastmod>
+<lastmod>2017-06-07T23:52:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-04T14:00:14-00:00</lastmod>
+<lastmod>2017-06-07T23:52:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-04T14:00:14-00:00</lastmod>
+<lastmod>2017-06-07T23:52:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-05-08T20:43:38+08:00</lastmod>
+<lastmod>2017-06-07T22:59:39+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./Font.html</loc>
+<lastmod>2017-06-07T11:13:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -173,7 +180,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/html.html</loc>
-<lastmod>2017-05-17T03:09:00+08:06</lastmod>
+<lastmod>2017-06-07T11:13:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/w8.html</loc>
+<lastmod>2017-05-09T22:31:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/notes.html</loc>
+<lastmod>2017-06-07T11:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -193,22 +214,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/w8.html</loc>
-<lastmod>2017-05-17T03:09:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/notes.html</loc>
-<lastmod>2017-06-04T13:41:00+08:06</lastmod>
+<loc>./tag/html.html</loc>
+<lastmod>2017-06-07T11:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423222.html</loc>
-<lastmod>2017-06-04T13:41:00+08:06</lastmod>
+<lastmod>2017-06-07T11:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -1,7 +1,7 @@
 Title: HTML-texts
 Date: 2017-05-17 03:09
 Category: HTML
-Tags: notes, w8
+Tags: notes, HTML
 Slug: HTML-texts
 Author: 40423222
 

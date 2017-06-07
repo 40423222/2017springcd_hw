@@ -62,6 +62,7 @@
 <v t="leo.20170509223103.1"><vh>@edit Lab8 photocell.md</vh></v>
 <v t="leo.20170604132633.1"><vh>@edit small exam.md</vh></v>
 <v t="leo.20170517150804.1"><vh>@edit  HTML-texts.md</vh></v>
+<v t="leo.20170607231259.1"><vh>@edit  Font.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
