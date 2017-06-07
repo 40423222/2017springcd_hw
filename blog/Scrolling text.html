@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Lab7 Seven_Segments - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>跑馬燈指令 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,21 +10,21 @@
 
 
 
-<link rel="canonical" href="./Arduino-Lab7 Seven_Segments.html">
+<link rel="canonical" href="./Scrolling text.html">
 
         <meta name="author" content="40423222" />
-        <meta name="keywords" content="notes,w8" />
-        <meta name="description" content="以下為Arduino Uno板的Seven_Segments實驗" />
+        <meta name="keywords" content="notes,HTML" />
+        <meta name="description" content="以下為HTML的Scrolling text說明" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Lab7 Seven_Segments"/>
-        <meta property="og:url" content="./Arduino-Lab7 Seven_Segments.html"/>
-        <meta property="og:description" content="以下為Arduino Uno板的Seven_Segments實驗"/>
-        <meta property="article:published_time" content="2017-05-08" />
-            <meta property="article:section" content="Arduino" />
+        <meta property="og:title" content="跑馬燈指令"/>
+        <meta property="og:url" content="./Scrolling text.html"/>
+        <meta property="og:description" content="以下為HTML的Scrolling text說明"/>
+        <meta property="article:published_time" content="2017-06-08" />
+            <meta property="article:section" content="HTML" />
             <meta property="article:tag" content="notes" />
-            <meta property="article:tag" content="w8" />
+            <meta property="article:tag" content="HTML" />
             <meta property="article:author" content="40423222" />
 
 
@@ -106,13 +106,13 @@
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="./category/arduino.html">Arduino</a>
                         </li>
                         <li >
                             <a href="./category/course.html">Course</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./category/html.html">Html</a>
                         </li>
             </ul>
@@ -138,10 +138,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Arduino-Lab7 Seven_Segments.html"
+                    <a href="./Scrolling text.html"
                        rel="bookmark"
-                       title="Permalink to Lab7 Seven_Segments">
-                        Lab7 Seven_Segments
+                       title="Permalink to 跑馬燈指令">
+                        跑馬燈指令
                     </a>
                 </h1>
             </header>
@@ -151,7 +151,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-08T22:44:00+08:00"> Mon 08 May 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-06-08T02:13:00+08:00"> Thu 08 June 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -161,75 +161,49 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/notes.html">notes</a>
         /
-	<a href="./tag/w8.html">w8</a>
+	<a href="./tag/html.html">HTML</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>以下為Arduino Uno板的Seven_Segments實驗</p>
+                <p>以下為HTML的Scrolling text說明</p>
 
 
-<h3>需要材料:</h3>
-<p>Wire: n個<br/>
-330Ω <a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html">Resistor</a>: 八個<br/>
-L-Seven-segment display: 一個<br/>
-<a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html">Arduino Uno</a>: 一個<br/>
-Breadboard: 一個</p>
-<h3>電路圖(Circuit diagram)</h3>
-<p><img src="./../data/Arduino/Lab7 Seven_Segments/Circuit diagram.png" width="480" /></p>
-<h3>程式碼(Code)</h3>
-<pre class="brush: python">
-//使用共陰極七段顯示器,也可用於LED排列發光
-const int NUM = 8;  //也可用#define NUM 8,但不能只打int NUM = 8;
-//使用到的腳位
-int pins[NUM] = {2, 3, 4, 5, 10, 11, 12, 13};
-//2為右上 3為上 4為點 5為右下 10為左上 11為中 12為下 13為左下
-//代表腳位顯示的位置
-#define t true //true等於HIHG,另一種寫法
-#define f false //false等於LOW,另一種寫法
-boolean data[10][NUM] = { //有十種變化(代表數字0~9),腳位有NUM個(8個輸出)
-  {t, t, f, t, t, f, t, t}, // 顯示的號碼0
-  {t, f, f, t, f, f, f, f}, // 1
-  {t, t, f, f, f, t, t, t}, // 2
-  {t, t, f, t, f, t, t, f}, // 3
-  {t, f, f, t, t, t, f, f}, // 4
-  {f, t, f, t, t, t, t, f}, // 5
-  {f, t, f, t, t, t, t, t}, // 6
-  {t, t, f, t, t, f, f, f}, // 7
-  {t, t, f, t, t, t, t, t}, // 8
-  {t, t, f, t, t, t, t, f}, // 9
-};
-
-void setup() {                
-  for(int i = 0; i < NUM; i++){
-    //i大於NUM時結束for迴圈,因i < NUM
-    pinMode(pins[i], OUTPUT);
-    //i為0時pins為2,最多到7(i < NUM),也就是pins = (2~5,10~13)
-  } 
-}
-
-void writeNumber(int n){
-  //建立一個名稱為writeNumber(n)的公式
-  for(int i = 0; i < NUM; i++){
-    digitalWrite(pins[i], data[n][i] == t ? HIGH : LOW);
-    //n在下方,data[幾種][輸出]一種內有8個輸出
-    //這一種的輸出,有t(true)的為HIGH不是為LOW
-  }
-}
-
-void loop() {
-  for(int n = 0; n <= 9; n++){
-    writeNumber(n);
-    //將建立的writeNumber(n)放到這
-    delay(1000);
-  }
-}
-</pre>
-
-<h3>參考網站:</h3>
-<p>Lab7 Seven_Segments:
-<a href="http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html">http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html</a><br/>
-參考對象:
-<img src="./../data/Arduino/參考對象/葉難.png" width="150" /></p>
+<h2><B>跑馬燈:</B></h2>
+<p><pre>
+<marquee direction=left  bgcolor="#ff9999" behavior=scroll    scrollamount=10 scrolldelay=100>嗨！我是一號跑馬燈</marquee> 
+<marquee direction=right bgcolor="#99ff99" behavior=slide     scrollamount=20 scrolldelay=100>Hello！我是二號跑馬燈</marquee> 
+<marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100>嘿嘿！我是三號跑馬燈</marquee> 
+</pre></p>
+<h3>指令</h3>
+<p><pre>
+<xmp>
+<marquee direction=left  bgcolor="#ff9999" behavior=scroll    scrollamount=10 scrolldelay=100>嗨！我是一號跑馬燈</marquee> 
+<marquee direction=right bgcolor="#99ff99" behavior=slide     scrollamount=20 scrolldelay=100>Hello！我是二號跑馬燈</marquee> 
+<marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100>嘿嘿！我是三號跑馬燈</marquee> 
+</xmp>
+</pre></p>
+<table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white>
+<tr>
+<td class=boldw>標籤<td colspan=2>marquee
+<tr>
+<td class=boldw>功能<td colspan=2>移動字體
+<tr>
+<td class=boldw>語法<td colspan=2>&lt;marquee&gt;跑馬燈內容&lt;/marquee&gt;
+<tr>
+<td class=boldw rowspan=6>屬性及說明
+<tr>
+<td>direction=left|right|center<td>水平線位置的設定，可選擇置左、置中、置右三種方式
+<tr>
+<td>bgcolor="#ff9999|#99ff99|#9999ff"<td>背景顏色的設定，可選擇紅、綠、藍的顏色
+<tr>
+<td>behavior=scroll|slide|alternate<td>字體移動方式，可選擇連續左到右、跑一次、左右來回
+<tr>
+<td>scrollamount=n n=1~無限<td>移動速度為n,n為數值  
+<tr>
+<td>height="a" width="b"<td>高度跟寬度設定  
+<tr>
+<td class=boldw>其它說明<td colspan=2>有關跑馬燈的屬性和其意義，讀者大概可以從上述範例猜出來吧？（若真的猜不出來，到搜尋引擎找找，應該可以找到答案。） 
+</table>
             </div>
             <!-- /.entry-content -->
         </article>
