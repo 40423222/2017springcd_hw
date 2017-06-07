@@ -65,6 +65,7 @@
 <v t="leo.20170607231259.1"><vh>@edit  Font.md</vh></v>
 <v t="leo.20170607235633.1"><vh>@edit  Paragraphs.md</vh></v>
 <v t="leo.20170608004928.1"><vh>@edit  Table.md</vh></v>
+<v t="leo.20170608012401.1"><vh>@edit  Formula.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>

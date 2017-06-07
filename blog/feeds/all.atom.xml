@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T00:50:00+08:00</updated><entry><title>表格指令</title><link href="./Table.html" rel="alternate"></link><published>2017-06-08T00:50:00+08:00</published><updated>2017-06-08T00:50:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Table.html</id><summary type="html">&lt;p&gt;以下為HTML的Table說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T01:24:00+08:00</updated><entry><title>數學公式指令</title><link href="./Formula.html" rel="alternate"></link><published>2017-06-08T01:24:00+08:00</published><updated>2017-06-08T01:24:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Formula.html</id><summary type="html">&lt;p&gt;以下為HTML的Formula說明&lt;/p&gt;
+
+
+&lt;h2&gt;&lt;B&gt;公式:&lt;/B&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+一個 d 維的高斯機率密度函數（Gaussian probability density function）可以表示成：
+&lt;center&gt;
+g(x, &lt;font face=symbol&gt;m&lt;/font&gt;, &lt;font face=symbol&gt;S&lt;/font&gt;) = 
+(2&lt;font face=symbol&gt;p&lt;/font&gt;)&lt;sup&gt;-d/2&lt;/sup&gt; &lt;em&gt;
+det(&lt;font face=symbol&gt;S&lt;/font&gt;)&lt;sup&gt;-0.5&lt;/sup&gt; &lt;/em&gt;
+exp[-(x-&lt;font face=symbol&gt;m&lt;/font&gt;)&lt;sup&gt;T&lt;/sup&gt;&lt;font face=symbol&gt;S&lt;/font&gt;&lt;sup&gt;-1&lt;/sup&gt;(x-&lt;font face=symbol&gt;m&lt;/font&gt;)/2]
+&lt;/center&gt;
+其中 &lt;font face=symbol&gt;m&lt;/font&gt; 是此高斯機率密度函數的平均向量（Mean vector），
+&lt;font face=symbol&gt;S&lt;/font&gt; 則是其共變異矩陣（Covariance matrix）
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;注意: 想要顯示公式,就必須關閉&amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt;
+&lt;br&gt;
+&lt;center&gt;
+g(x, &lt;font face=symbol&gt;m&lt;/font&gt;, &lt;font face=symbol&gt;S&lt;/font&gt;) = 
+(2&lt;font face=symbol&gt;p&lt;/font&gt;)&lt;sup&gt;-d/2&lt;/sup&gt; &lt;em&gt;
+det(&lt;font face=symbol&gt;S&lt;/font&gt;)&lt;sup&gt;-0.5&lt;/sup&gt; &lt;/em&gt;
+exp[-(x-&lt;font face=symbol&gt;m&lt;/font&gt;)&lt;sup&gt;T&lt;/sup&gt;&lt;font face=symbol&gt;S&lt;/font&gt;&lt;sup&gt;-1&lt;/sup&gt;(x-&lt;font face=symbol&gt;m&lt;/font&gt;)/2]
+&lt;/center&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+一個 d 維的高斯機率密度函數（Gaussian probability density function）可以表示成：
+&lt;center&gt;
+g(x, &lt;font face=symbol&gt;m&lt;/font&gt;, &lt;font face=symbol&gt;S&lt;/font&gt;) = 
+(2&lt;font face=symbol&gt;p&lt;/font&gt;)&lt;sup&gt;-d/2&lt;/sup&gt; &lt;em&gt;
+det(&lt;font face=symbol&gt;S&lt;/font&gt;)&lt;sup&gt;-0.5&lt;/sup&gt; &lt;/em&gt;
+exp[-(x-&lt;font face=symbol&gt;m&lt;/font&gt;)&lt;sup&gt;T&lt;/sup&gt;&lt;font face=symbol&gt;S&lt;/font&gt;&lt;sup&gt;-1&lt;/sup&gt;(x-&lt;font face=symbol&gt;m&lt;/font&gt;)/2]
+&lt;/center&gt;
+其中 &lt;font face=symbol&gt;m&lt;/font&gt; 是此高斯機率密度函數的平均向量（Mean vector），
+&lt;font face=symbol&gt;S&lt;/font&gt; 則是其共變異矩陣（Covariance matrix）
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="HTML"></category></entry><entry><title>表格指令</title><link href="./Table.html" rel="alternate"></link><published>2017-06-08T00:50:00+08:00</published><updated>2017-06-08T00:50:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Table.html</id><summary type="html">&lt;p&gt;以下為HTML的Table說明&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;B&gt;表格:&lt;/B&gt;&lt;/h2&gt;
