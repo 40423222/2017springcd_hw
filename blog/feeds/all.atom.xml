@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-07T11:56:00+08:00</updated><entry><title>換行指令</title><link href="./Paragraphs.html" rel="alternate"></link><published>2017-06-07T11:56:00+08:00</published><updated>2017-06-07T11:56:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-07:./Paragraphs.html</id><summary type="html">&lt;p&gt;以下為HTML的Paragraphs說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T00:50:00+08:00</updated><entry><title>表格指令</title><link href="./Table.html" rel="alternate"></link><published>2017-06-08T00:50:00+08:00</published><updated>2017-06-08T00:50:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Table.html</id><summary type="html">&lt;p&gt;以下為HTML的Table說明&lt;/p&gt;
+
+
+&lt;h2&gt;&lt;B&gt;表格:&lt;/B&gt;&lt;/h2&gt;
+&lt;table border="5" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;
+&lt;td style="text-align:center" &gt;table&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="2" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;table&amp;gt;要顯示的內容&amp;lt;/table&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;tr&amp;gt;代表下一行&amp;lt;/tr&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="7" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;td style="text-align:center"&gt;border為表格線粗&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;width為整個表格的寬度&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;background為控制背景圖片&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;colspan這格橫跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;rowspan這格垂直跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;align字體在這格的水平放置位置&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;valign字體在這格的垂直放置位置&lt;/td&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+&lt;table border="5" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td  style="text-align:center" bgcolor='#FFD78C'&gt;標籤&lt;/td&gt;
+&lt;td style="text-align:center" &gt;table&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="2" bgcolor='#FFD78C'&gt;語法&lt;/td&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;table&amp;gt;要顯示的內容&amp;lt;/table&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;&amp;lt;tr&amp;gt;代表下一行&amp;lt;/tr&amp;gt;&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="7" bgcolor='#FFD78C'&gt;屬性&lt;/td&gt;
+&lt;td style="text-align:center"&gt;border為表格線粗&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;width為整個表格的寬度&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;background為控制背景圖片&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;colspan這格橫跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;rowspan這格垂直跨幾格&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;align字體在這格的水平放置位置&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;valign字體在這格的垂直放置位置&lt;/td&gt;
+&lt;/table&gt;
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="HTML"></category></entry><entry><title>換行指令</title><link href="./Paragraphs.html" rel="alternate"></link><published>2017-06-07T11:56:00+08:00</published><updated>2017-06-07T11:56:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-07:./Paragraphs.html</id><summary type="html">&lt;p&gt;以下為HTML的Paragraphs說明&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;B&gt;切換到下一行:&lt;/B&gt;&lt;/h2&gt;
