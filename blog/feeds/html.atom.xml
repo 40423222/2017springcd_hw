@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T02:13:00+08:00</updated><entry><title>跑馬燈指令</title><link href="./Scrolling%20text.html" rel="alternate"></link><published>2017-06-08T02:13:00+08:00</published><updated>2017-06-08T02:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Scrolling text.html</id><summary type="html">&lt;p&gt;以下為HTML的Scrolling text說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T02:23:00+08:00</updated><entry><title>顯示程式指令</title><link href="./Show%20code.html" rel="alternate"></link><published>2017-06-08T02:23:00+08:00</published><updated>2017-06-08T02:23:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Show code.html</id><summary type="html">&lt;p&gt;以下為HTML的Show code說明&lt;/p&gt;
+
+
+&lt;h2&gt;&lt;B&gt;顯示程式:&lt;/B&gt;&lt;/h2&gt;
+&lt;p&gt;PRE 所產生的效果:
+&lt;pre&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;XMP 所產生的效果:
+&lt;xmp&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/xmp&gt;&lt;/p&gt;
+&lt;h3&gt;指令&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+PRE 所產生的效果:
+&lt;pre&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;XMP 所產生的效果:
+&lt;xmp&gt;
+    This is a test by &lt;a href="/jang"&gt;Roger Jang&lt;/a&gt;.
+    1&lt;br&gt;2&lt;p&gt;&lt;marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100&gt;嘿嘿！我是三號跑馬燈&lt;/marquee&gt;
+&lt;/xmp&gt;
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white&gt;
+&lt;tr&gt;
+&lt;td class=boldw&gt;講解&lt;td colspan=2&gt;&amp;lt;pre&amp;gt; (Preformatted Text) 所標記起來的是預先已排版過的文章，使其以原貌表現在網頁上。雖然 &amp;ltpre&amp;gt; 可以將所標記的文字以原貌呈現出來，但文章中如果有 HTML 的標籤，瀏覽器仍會對其進行處理後，才會呈現出來。但如果我們只是要顯示標籤但不想要處理顯現標籤時，就可以改用 &amp;ltXMP&amp;gt; 標籤，此標籤會將所有其它的 HTML 標籤原封不動地呈現出來
+&lt;/table&gt;</summary><category term="notes"></category><category term="HTML"></category></entry><entry><title>跑馬燈指令</title><link href="./Scrolling%20text.html" rel="alternate"></link><published>2017-06-08T02:13:00+08:00</published><updated>2017-06-08T02:13:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Scrolling text.html</id><summary type="html">&lt;p&gt;以下為HTML的Scrolling text說明&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;B&gt;跑馬燈:&lt;/B&gt;&lt;/h2&gt;

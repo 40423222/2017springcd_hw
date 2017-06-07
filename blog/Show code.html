@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>LED - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>顯示程式指令 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,21 +10,21 @@
 
 
 
-<link rel="canonical" href="./Arduino-LED.html">
+<link rel="canonical" href="./Show code.html">
 
         <meta name="author" content="40423222" />
-        <meta name="keywords" content="notes,w8" />
-        <meta name="description" content="以下為LED的解說" />
+        <meta name="keywords" content="notes,HTML" />
+        <meta name="description" content="以下為HTML的Show code說明" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="LED"/>
-        <meta property="og:url" content="./Arduino-LED.html"/>
-        <meta property="og:description" content="以下為LED的解說"/>
-        <meta property="article:published_time" content="2017-05-06" />
-            <meta property="article:section" content="Arduino" />
+        <meta property="og:title" content="顯示程式指令"/>
+        <meta property="og:url" content="./Show code.html"/>
+        <meta property="og:description" content="以下為HTML的Show code說明"/>
+        <meta property="article:published_time" content="2017-06-08" />
+            <meta property="article:section" content="HTML" />
             <meta property="article:tag" content="notes" />
-            <meta property="article:tag" content="w8" />
+            <meta property="article:tag" content="HTML" />
             <meta property="article:author" content="40423222" />
 
 
@@ -106,13 +106,13 @@
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="./category/arduino.html">Arduino</a>
                         </li>
                         <li >
                             <a href="./category/course.html">Course</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./category/html.html">Html</a>
                         </li>
             </ul>
@@ -138,10 +138,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Arduino-LED.html"
+                    <a href="./Show code.html"
                        rel="bookmark"
-                       title="Permalink to LED">
-                        LED
+                       title="Permalink to 顯示程式指令">
+                        顯示程式指令
                     </a>
                 </h1>
             </header>
@@ -151,7 +151,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-06T17:44:00+08:00"> Sat 06 May 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-06-08T02:23:00+08:00"> Thu 08 June 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -161,39 +161,43 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/notes.html">notes</a>
         /
-	<a href="./tag/w8.html">w8</a>
+	<a href="./tag/html.html">HTML</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>以下為LED的解說</p>
+                <p>以下為HTML的Show code說明</p>
 
 
-<h3>LED零件:<br/></h3>
-<p><img src="./../data/Arduino/LED/LED.png" width="300" /><br/></p>
-<h3>LED裝配方式:<br/></h3>
-<p><img src="./../data/Arduino/LED/install.png" width="650" /><br/></p>
-<h3>要裝多少電阻:<br/></h3>
-<p>假設LED的正向電壓(forward voltage)為2V和正向電流(forward current)為20mA(0.02A),要知道LED這些數值,需查詢產品資料<br/>
-知道這些數值後利用,R = V / I   R = 電阻 , V = 電壓 , I = 電流<br/>
-2(V) / 0.02(A) = 150 (ohm)<br/>
-也就是要使用150Ω <a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html">Resistor</a></p>
-<p>Arduino Uno13腳位的LED有內設電阻,所以不需要接上電阻<br/>
-<img src="./../data/Arduino/LED/Arduino pin13.png" width="450" /></p>
-<h3>參考網站:<br/></h3>
-<p>1.LED零件:
-<a href="https://zh.wikipedia.org/wiki/%E7%99%BC%E5%85%89%E4%BA%8C%E6%A5%B5%E7%AE%A1">https://zh.wikipedia.org/wiki/%E7%99%BC%E5%85%89%E4%BA%8C%E6%A5%B5%E7%AE%A1</a><br/>
-參考對象:
-<img src="./../data/Arduino/LED/維基百科.png" width="150" /><br/></p>
-<p>2.LED裝配方式:
-<a href="https://www.youtube.com/watch?v=cWEJMusT-hI">https://www.youtube.com/watch?v=cWEJMusT-hI</a><br/>
-參考對象:
-<img src="./../data/Arduino/LED/軟爛番茄.png" width="150" /><br/></p>
-<p>3.要裝多少電阻:<br/>
-<a href="https://www.youtube.com/watch?v=cWEJMusT-hI">https://www.youtube.com/watch?v=cWEJMusT-hI</a><br/>
-<a href="http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html">http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html</a><br/>
-參考對象:
-<img src="./../data/Arduino/LED/軟爛番茄.png" width="150" />
-<img src="./../data/Arduino/LED/葉難.png" width="150" /></p>
+<h2><B>顯示程式:</B></h2>
+<p>PRE 所產生的效果:
+<pre>
+    This is a test by <a href="/jang">Roger Jang</a>.
+    1<br>2<p><marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100>嘿嘿！我是三號跑馬燈</marquee>
+</pre></p>
+<p>XMP 所產生的效果:
+<xmp>
+    This is a test by <a href="/jang">Roger Jang</a>.
+    1<br>2<p><marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100>嘿嘿！我是三號跑馬燈</marquee>
+</xmp></p>
+<h3>指令</h3>
+<p><pre>
+<xmp>
+PRE 所產生的效果:
+<pre>
+    This is a test by <a href="/jang">Roger Jang</a>.
+    1<br>2<p><marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100>嘿嘿！我是三號跑馬燈</marquee>
+</pre></p>
+<p>XMP 所產生的效果:
+<xmp>
+    This is a test by <a href="/jang">Roger Jang</a>.
+    1<br>2<p><marquee direction=left  bgcolor="#9999ff" behavior=alternate scrollamount=30 scrolldelay=100>嘿嘿！我是三號跑馬燈</marquee>
+</xmp>
+</xmp>
+</pre></p>
+<table align=center border=1 cellspacing=0 style="border:1px solid black" bgcolor=white>
+<tr>
+<td class=boldw>講解<td colspan=2>&lt;pre&gt; (Preformatted Text) 所標記起來的是預先已排版過的文章，使其以原貌表現在網頁上。雖然 &ltpre&gt; 可以將所標記的文字以原貌呈現出來，但文章中如果有 HTML 的標籤，瀏覽器仍會對其進行處理後，才會呈現出來。但如果我們只是要顯示標籤但不想要處理顯現標籤時，就可以改用 &ltXMP&gt; 標籤，此標籤會將所有其它的 HTML 標籤原封不動地呈現出來
+</table>
             </div>
             <!-- /.entry-content -->
         </article>
