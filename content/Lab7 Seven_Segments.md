@@ -1,7 +1,7 @@
 Title: Lab7 Seven_Segments
 Date: 2017-05-08 22:44
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-Lab7 Seven_Segments
 Author: 40423222
 

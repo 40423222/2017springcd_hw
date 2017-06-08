@@ -1,7 +1,7 @@
 Title: H-Seven-segment display
 Date: 2017-05-07 18:52
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-H-Seven-segment display-part
 Author: 40423222
 

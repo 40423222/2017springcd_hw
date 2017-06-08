@@ -1,7 +1,7 @@
 Title: LED
 Date: 2017-05-06 17:44
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-LED
 Author: 40423222
 

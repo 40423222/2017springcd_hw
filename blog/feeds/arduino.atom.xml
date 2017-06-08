@@ -152,7 +152,7 @@ void loop() {
 &lt;p&gt;Lab8 photocell:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab8-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab8-led.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab7 Seven_Segments</title><link href="./Arduino-Lab7%20Seven_Segments.html" rel="alternate"></link><published>2017-05-08T22:44:00+08:00</published><updated>2017-05-08T22:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab7 Seven_Segments.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Seven_Segments實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lab7 Seven_Segments</title><link href="./Arduino-Lab7%20Seven_Segments.html" rel="alternate"></link><published>2017-05-08T22:44:00+08:00</published><updated>2017-05-08T22:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab7 Seven_Segments.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Seven_Segments實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -216,7 +216,7 @@ void loop() {
 &lt;p&gt;Lab7 Seven_Segments:
 &lt;a href="http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html"&gt;http://yehnan.blogspot.tw/2012/02/arduinoseven-segment-display.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/參考對象/葉難.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab6 Buzzer</title><link href="./Arduino-Lab6%20Buzzer.html" rel="alternate"></link><published>2017-05-08T21:55:00+08:00</published><updated>2017-05-08T21:55:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab6 Buzzer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Buzzer實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/參考對象/葉難.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lab6 Buzzer</title><link href="./Arduino-Lab6%20Buzzer.html" rel="alternate"></link><published>2017-05-08T21:55:00+08:00</published><updated>2017-05-08T21:55:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab6 Buzzer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Buzzer實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -354,7 +354,7 @@ void loop() {
 &lt;p&gt;Lab6 Buzzer:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab6.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab6.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab5 LED_Bar_Graph</title><link href="./Arduino-Lab5%20LED_Bar_Graph.html" rel="alternate"></link><published>2017-05-08T20:48:00+08:00</published><updated>2017-05-08T20:48:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab5 LED_Bar_Graph.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED_Bar_Graph實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lab5 LED_Bar_Graph</title><link href="./Arduino-Lab5%20LED_Bar_Graph.html" rel="alternate"></link><published>2017-05-08T20:48:00+08:00</published><updated>2017-05-08T20:48:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-08:./Arduino-Lab5 LED_Bar_Graph.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED_Bar_Graph實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -407,7 +407,7 @@ void loop() {
 &lt;p&gt;Lab5 LED_Bar_Graph:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab5-led-bar-graph.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab5-led-bar-graph.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>H-Seven-segment display</title><link href="./Arduino-H-Seven-segment%20display-part.html" rel="alternate"></link><published>2017-05-07T18:52:00+08:00</published><updated>2017-05-07T18:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-07:./Arduino-H-Seven-segment display-part.html</id><summary type="html">&lt;p&gt;以下為Seven-segment display的解說&lt;/p&gt;
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>H-Seven-segment display</title><link href="./Arduino-H-Seven-segment%20display-part.html" rel="alternate"></link><published>2017-05-07T18:52:00+08:00</published><updated>2017-05-07T18:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-07:./Arduino-H-Seven-segment display-part.html</id><summary type="html">&lt;p&gt;以下為Seven-segment display的解說&lt;/p&gt;
 
 
 &lt;h3&gt;陽性七段顯示器零件:&lt;br/&gt;&lt;/h3&gt;
@@ -426,7 +426,7 @@ void loop() {
 &lt;a href="http://www.ym.edu.tw/~yhkao/iedu/electronics_03_(7447).pdf"&gt;http://www.ym.edu.tw/~yhkao/iedu/electronics_03_(7447).pdf&lt;/a&gt;&lt;br/&gt;
 參考對象:
 &lt;img src="./../data/Arduino/LED/維基百科.png" width="150" /&gt;
-&lt;img src="./../data/Arduino/IC 7447/國立陽明大學.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>IC 7447</title><link href="./Arduino-IC%207447-part.html" rel="alternate"></link><published>2017-05-07T17:07:00+08:00</published><updated>2017-05-07T17:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-07:./Arduino-IC 7447-part.html</id><summary type="html">&lt;p&gt;以下為IC 7447的解說&lt;/p&gt;
+&lt;img src="./../data/Arduino/IC 7447/國立陽明大學.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>IC 7447</title><link href="./Arduino-IC%207447-part.html" rel="alternate"></link><published>2017-05-07T17:07:00+08:00</published><updated>2017-05-07T17:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-07:./Arduino-IC 7447-part.html</id><summary type="html">&lt;p&gt;以下為IC 7447的解說&lt;/p&gt;
 
 
 &lt;h3&gt;IC 7447零件:&lt;br/&gt;&lt;/h3&gt;
@@ -443,7 +443,7 @@ IC 7448才能使用在陰性七段顯示器上&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;1.IC 7447零件 和 2.IC 7447裝配方式 和 3.控制IC 7447:&lt;br/&gt;
 &lt;a href="http://www.ym.edu.tw/~yhkao/iedu/electronics_03_(7447).pdf"&gt;http://www.ym.edu.tw/~yhkao/iedu/electronics_03_(7447).pdf&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/IC 7447/國立陽明大學.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Button</title><link href="./Arduino-Button-part.html" rel="alternate"></link><published>2017-05-06T21:01:00+08:00</published><updated>2017-05-06T21:01:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Button-part.html</id><summary type="html">&lt;p&gt;以下為Button的解說&lt;/p&gt;
+&lt;img src="./../data/Arduino/IC 7447/國立陽明大學.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Button</title><link href="./Arduino-Button-part.html" rel="alternate"></link><published>2017-05-06T21:01:00+08:00</published><updated>2017-05-06T21:01:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Button-part.html</id><summary type="html">&lt;p&gt;以下為Button的解說&lt;/p&gt;
 
 
 &lt;h3&gt;按鈕零件:&lt;br/&gt;&lt;/h3&gt;
@@ -477,7 +477,7 @@ IC 7448才能使用在陰性七段顯示器上&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;4.Arduino範例:
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/"&gt;https://40423222.github.io/2017springcd_hw/blog/&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Button/part/40423222.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>LED</title><link href="./Arduino-LED.html" rel="alternate"></link><published>2017-05-06T17:44:00+08:00</published><updated>2017-05-06T17:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-LED.html</id><summary type="html">&lt;p&gt;以下為LED的解說&lt;/p&gt;
+&lt;img src="./../data/Arduino/Button/part/40423222.png" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>LED</title><link href="./Arduino-LED.html" rel="alternate"></link><published>2017-05-06T17:44:00+08:00</published><updated>2017-05-06T17:44:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-LED.html</id><summary type="html">&lt;p&gt;以下為LED的解說&lt;/p&gt;
 
 
 &lt;h3&gt;LED零件:&lt;br/&gt;&lt;/h3&gt;
@@ -505,7 +505,7 @@ IC 7448才能使用在陰性七段顯示器上&lt;br/&gt;&lt;/p&gt;
 &lt;a href="http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html"&gt;http://yehnan.blogspot.tw/2012/03/arduinoled220-ohm.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
 &lt;img src="./../data/Arduino/LED/軟爛番茄.png" width="150" /&gt;
-&lt;img src="./../data/Arduino/LED/葉難.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Resistance</title><link href="./Arduino-Resistance.html" rel="alternate"></link><published>2017-05-06T14:52:00+08:00</published><updated>2017-05-06T14:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Resistance.html</id><summary type="html">&lt;p&gt;以下為Resistance的解說&lt;/p&gt;
+&lt;img src="./../data/Arduino/LED/葉難.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Resistance</title><link href="./Arduino-Resistance.html" rel="alternate"></link><published>2017-05-06T14:52:00+08:00</published><updated>2017-05-06T14:52:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-06:./Arduino-Resistance.html</id><summary type="html">&lt;p&gt;以下為Resistance的解說&lt;/p&gt;
 
 
 &lt;h3&gt;電阻零件:&lt;br/&gt;&lt;/h3&gt;
@@ -545,7 +545,7 @@ IC 7448才能使用在陰性七段顯示器上&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;3.電阻相關的公式:
 &lt;a href="https://www.youtube.com/watch?v=lnC6J9AplMc"&gt;https://www.youtube.com/watch?v=lnC6J9AplMc&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Resistance/reference-3.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>threeLevel_cdMotor</title><link href="./Arduino-threeLevel_Motor.html" rel="alternate"></link><published>2017-05-03T16:36:00+08:00</published><updated>2017-05-03T16:36:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-03:./Arduino-threeLevel_Motor.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的threeLevel_Motor實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Resistance/reference-3.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>threeLevel_cdMotor</title><link href="./Arduino-threeLevel_Motor.html" rel="alternate"></link><published>2017-05-03T16:36:00+08:00</published><updated>2017-05-03T16:36:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-03:./Arduino-threeLevel_Motor.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的threeLevel_Motor實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -670,7 +670,7 @@ void loop() {
 &lt;h3&gt;測試影片(Test video)&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/215508472" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/215508472"&gt;三段變速_直流馬達&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab4 Potentiometer</title><link href="./Arduino-Potentiometer.html" rel="alternate"></link><published>2017-04-25T23:50:00+08:00</published><updated>2017-04-25T23:50:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Potentiometer實驗&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/215508472"&gt;三段變速_直流馬達&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lab4 Potentiometer</title><link href="./Arduino-Potentiometer.html" rel="alternate"></link><published>2017-04-25T23:50:00+08:00</published><updated>2017-04-25T23:50:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Potentiometer實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -706,7 +706,7 @@ void loop() {
 &lt;p&gt;Lab4 Potentiometer:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab3 Fade</title><link href="./Arduino-Fade.html" rel="alternate"></link><published>2017-04-25T23:02:00+08:00</published><updated>2017-04-25T23:02:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Fade.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Fade實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lab3 Fade</title><link href="./Arduino-Fade.html" rel="alternate"></link><published>2017-04-25T23:02:00+08:00</published><updated>2017-04-25T23:02:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Fade.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Fade實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -747,7 +747,7 @@ void loop() {
 &lt;p&gt;Lab3 Fade:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab3-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab3-led.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lad2 Button</title><link href="./Arduino-Button.html" rel="alternate"></link><published>2017-04-25T22:30:00+08:00</published><updated>2017-04-25T22:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Button.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Button實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lad2 Button</title><link href="./Arduino-Button.html" rel="alternate"></link><published>2017-04-25T22:30:00+08:00</published><updated>2017-04-25T22:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Button.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Button實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -791,7 +791,7 @@ void loop() {
 &lt;p&gt;Lad2 Button:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab2-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab2-led.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lad1 Blink</title><link href="./Arduino-Blink.html" rel="alternate"></link><published>2017-04-25T20:58:00+08:00</published><updated>2017-04-25T20:58:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Blink.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED燈實驗&lt;/p&gt;
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>Lad1 Blink</title><link href="./Arduino-Blink.html" rel="alternate"></link><published>2017-04-25T20:58:00+08:00</published><updated>2017-04-25T20:58:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Blink.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的LED燈實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;
@@ -821,4 +821,4 @@ void loop() {
 &lt;p&gt;Lad1 Blink:
 &lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab1-blinking-led.html"&gt;http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab1-blinking-led.html&lt;/a&gt;&lt;br/&gt;
 參考對象:
-&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry></feed>
+&lt;img src="./../data/Arduino/Cooper Maa.png" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry></feed>

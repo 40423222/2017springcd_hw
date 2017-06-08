@@ -1,7 +1,7 @@
 Title: Lab8 photocell
 Date: 2017-05-09 22:31
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-Lab8 photocell
 Author: 40423222
 

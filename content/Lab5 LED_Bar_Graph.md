@@ -1,7 +1,7 @@
 Title: Lab5 LED_Bar_Graph
 Date: 2017-05-08 20:48
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-Lab5 LED_Bar_Graph
 Author: 40423222
 

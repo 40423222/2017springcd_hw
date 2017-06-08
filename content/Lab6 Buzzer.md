@@ -1,7 +1,7 @@
 Title: Lab6 Buzzer
 Date: 2017-05-08 21:55
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-Lab6 Buzzer
 Author: 40423222
 

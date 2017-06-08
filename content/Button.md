@@ -1,7 +1,7 @@
 Title: Button
 Date: 2017-05-06 21:01
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-Button-part
 Author: 40423222
 

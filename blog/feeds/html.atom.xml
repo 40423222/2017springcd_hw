@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T02:23:00+08:00</updated><entry><title>顯示程式指令</title><link href="./Show%20code.html" rel="alternate"></link><published>2017-06-08T02:23:00+08:00</published><updated>2017-06-08T02:23:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Show code.html</id><summary type="html">&lt;p&gt;以下為HTML的Show code說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/html.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T08:42:00+08:00</updated><entry><title>HTML標籤</title><link href="./HTML%20tags.html" rel="alternate"></link><published>2017-06-08T08:42:00+08:00</published><updated>2017-06-08T08:42:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./HTML tags.html</id><summary type="html">&lt;p&gt;以下為HTML的各自範例&lt;/p&gt;
+
+
+&lt;h1&gt;20170608&lt;/h1&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Font.html"&gt;&lt;b&gt;字體效果&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Paragraphs.html"&gt;&lt;b&gt;換行指令&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Table.html"&gt;&lt;b&gt;表格&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Formula.html"&gt;&lt;b&gt;數學公式&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Scrolling%20text.html"&gt;&lt;b&gt;跑馬燈&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Show%20code.html"&gt;&lt;b&gt;程式顯示&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://40423222.github.io/2017springcd_hw/blog/HTML-texts.html"&gt;&lt;b&gt;HTML-texts&lt;/b&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;注意: 要一直跟新時間,這樣才能顯示在第一&lt;/p&gt;</summary><category term="notes"></category><category term="HTML"></category></entry><entry><title>顯示程式指令</title><link href="./Show%20code.html" rel="alternate"></link><published>2017-06-08T02:23:00+08:00</published><updated>2017-06-08T02:23:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./Show code.html</id><summary type="html">&lt;p&gt;以下為HTML的Show code說明&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;B&gt;顯示程式:&lt;/B&gt;&lt;/h2&gt;

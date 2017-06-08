@@ -1,7 +1,7 @@
 Title: Resistance
 Date: 2017-05-06 14:52
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino-Resistance
 Author: 40423222
 
