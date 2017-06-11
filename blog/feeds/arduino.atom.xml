@@ -73,12 +73,12 @@ state為HIGH 或 LOW,以attachlnterrupt控制帶入void blink公式
 &lt;hr&gt;
 
 &lt;h3&gt;參考網站:&lt;/h3&gt;
-&lt;p&gt;產品影片: https://www.youtube.com/watch?v=FsFbzvJpeMo
+&lt;p&gt;產品影片: &lt;a href="https://www.youtube.com/watch?v=FsFbzvJpeMo"&gt;https://www.youtube.com/watch?v=FsFbzvJpeMo&lt;/a&gt;
 &lt;br&gt;
 參考對象:
 &lt;img src="./../data/Arduino/參考對象/Fresco.jpg" width="150" /&gt;
 &lt;br/&gt;
-產品網站: https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA
+產品網站: &lt;a href="https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA"&gt;https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA&lt;/a&gt;
 &lt;br&gt;
 參考對象:
 &lt;img src="./../data/Arduino/參考對象/pinkoi.jpg" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="report"></category></entry><entry><title>Potentiometer</title><link href="./Potentiometer.html" rel="alternate"></link><published>2017-06-11T11:38:00+08:00</published><updated>2017-06-11T11:38:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-11:./Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Potentiometer的解說&lt;/p&gt;
@@ -106,7 +106,7 @@ state為HIGH 或 LOW,以attachlnterrupt控制帶入void blink公式
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 五個&lt;br/&gt;
 1kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
-Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Potentiometer.html"&gt;Potentiometer&lt;/a&gt;: 一個(不限電駔大小)&lt;br/&gt;
 NPN 9013: 一個&lt;br&gt;
 &lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 五個&lt;br/&gt;
@@ -651,7 +651,7 @@ IC 7448才能使用在陰性七段顯示器上&lt;br/&gt;&lt;/p&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Button-part.html"&gt;Button&lt;/a&gt;: 兩個&lt;br/&gt;
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 九個&lt;br/&gt;
 10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 兩個&lt;br/&gt;
-Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Potentiometer.html"&gt;Potentiometer&lt;/a&gt;: 一個(不限電駔大小)&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 三個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-IC 7447-part.html"&gt;IC 7447&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-H-Seven-segment display-part.html"&gt;H-Seven-segment display&lt;/a&gt;: 一個&lt;br/&gt;
@@ -775,7 +775,7 @@ void loop() {
 &lt;p&gt;Wire: n個&lt;br/&gt;
 330Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個&lt;br/&gt;
 &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個&lt;br/&gt;
-Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Potentiometer.html"&gt;Potentiometer&lt;/a&gt;: 一個(不限電駔大小)&lt;br/&gt;
 &lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個&lt;/p&gt;
 &lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/Arduino/Potentiometer/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;

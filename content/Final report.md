@@ -88,12 +88,12 @@ state為HIGH 或 LOW,以attachlnterrupt控制帶入void blink公式
 <hr>
 
 ### 參考網站:
-產品影片: https://www.youtube.com/watch?v=FsFbzvJpeMo
+產品影片: <a href="https://www.youtube.com/watch?v=FsFbzvJpeMo">https://www.youtube.com/watch?v=FsFbzvJpeMo</a>
 <br>
 參考對象:
 <img src="./../data/Arduino/參考對象/Fresco.jpg" width="150" />
 <br/>
-產品網站: https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA
+產品網站: <a href="https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA">https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA</a>
 <br>
 參考對象:
 <img src="./../data/Arduino/參考對象/pinkoi.jpg" width="150" />

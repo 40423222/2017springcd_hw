@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-12T01:19:02-00:00</lastmod>
+<lastmod>2017-06-12T01:28:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-12T01:19:02-00:00</lastmod>
+<lastmod>2017-06-12T01:28:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-12T01:19:02-00:00</lastmod>
+<lastmod>2017-06-12T01:28:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-12T01:19:02-00:00</lastmod>
+<lastmod>2017-06-12T01:28:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -242,22 +242,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/html.html</loc>
-<lastmod>2017-06-08T08:42:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/report.html</loc>
-<lastmod>2017-06-12T00:24:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/arduino.html</loc>
-<lastmod>2017-06-11T11:38:00+08:06</lastmod>
+<loc>./tag/exam.html</loc>
+<lastmod>2017-06-04T13:41:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -277,8 +263,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/exam.html</loc>
-<lastmod>2017-06-04T13:41:00+08:06</lastmod>
+<loc>./tag/report.html</loc>
+<lastmod>2017-06-12T00:24:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/html.html</loc>
+<lastmod>2017-06-08T08:42:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/arduino.html</loc>
+<lastmod>2017-06-11T11:38:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
