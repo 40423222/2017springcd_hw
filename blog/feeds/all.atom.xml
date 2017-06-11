@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-11T11:38:00+08:00</updated><entry><title>Potentiometer</title><link href="./Potentiometer.html" rel="alternate"></link><published>2017-06-11T11:38:00+08:00</published><updated>2017-06-11T11:38:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-11:./Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Potentiometer的解說&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-12T00:24:00+08:00</updated><entry><title>Final report</title><link href="./Final%20report.html" rel="alternate"></link><published>2017-06-12T00:24:00+08:00</published><updated>2017-06-12T00:24:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-12:./Final report.html</id><summary type="html">&lt;p&gt;以下為電子實習的Final report&lt;/p&gt;
+
+
+&lt;h3&gt;Final report&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Final report/Final report.jpg" width="800" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;需要材料:&lt;/h3&gt;
+&lt;p&gt;Wire: n個
+&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Button-part.html"&gt;Button&lt;/a&gt;: 一個
+&lt;br/&gt;
+220Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個
+&lt;br/&gt;
+10kΩ &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-Resistance.html"&gt;Resistor&lt;/a&gt;: 一個
+&lt;br/&gt;
+500Ω &lt;a href="https://40423222.github.io/2017springcd_hw/blog/Potentiometer.html"&gt;Potentiometer&lt;/a&gt;: 一個(不限電駔大小)
+&lt;br/&gt;
+&lt;a href="https://40423222.github.io/2017springcd_hw/blog/Arduino-LED.html"&gt;LED&lt;/a&gt;: 一個
+&lt;br/&gt;
+&lt;a href="http://coopermaa2nd.blogspot.tw/2011/05/arduino.html"&gt;Arduino Uno&lt;/a&gt;: 一個
+&lt;br/&gt;
+Breadboard: 一個&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Final report/Circuit diagram.png" width="800" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;程式碼(Code)&lt;/h3&gt;
+&lt;pre class="brush: python"&gt;
+int ledPin = 13;
+volatile int state = LOW;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  attachInterrupt(1, blink, RISING);
+}
+
+void blink()
+{
+  state = !state; // LOW轉成HIGH 或 HIGH轉成LOW
+}
+
+void loop() {
+  digitalWrite(ledPin, state);
+  delay(50);
+}
+
+/* 程式解說
+Pin13為開啟LED的腳位
+state為HIGH 或 LOW,以attachlnterrupt控制帶入void blink公式
+每當Pin3的電壓上升時,將會啟動void blink公式,而啟動Pin3為HIGH或LOW
+*/
+&lt;/pre&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;流程圖&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Final report/流程圖.png" width="600" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;影片(Video)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/221164790" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/221164790"&gt;Final report&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;使用容器&lt;/h3&gt;
+&lt;h4&gt;點擊圖片連結&lt;/h4&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;a href="https://cad.onshape.com/documents/0d9dcaa3775eb229925f88ca/w/b125a737f17aa15d29d14b85/e/2a57297807e88460994c0c2f"&gt;&lt;img src="./../data/Arduino/Final report/LED Potted.jpg" width="450"  title="點擊左鍵"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;參考網站:&lt;/h3&gt;
+&lt;p&gt;產品影片: https://www.youtube.com/watch?v=FsFbzvJpeMo
+&lt;br&gt;
+參考對象:
+&lt;img src="./../data/Arduino/參考對象/Fresco.jpg" width="150" /&gt;
+&lt;br/&gt;
+產品網站: https://www.pinkoi.com/product/1z4BOWzK?gclid=CM652u-CrdQCFRIKKgodqXIBsA
+&lt;br&gt;
+參考對象:
+&lt;img src="./../data/Arduino/參考對象/pinkoi.jpg" width="150" /&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="report"></category></entry><entry><title>Potentiometer</title><link href="./Potentiometer.html" rel="alternate"></link><published>2017-06-11T11:38:00+08:00</published><updated>2017-06-11T11:38:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-11:./Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Potentiometer的解說&lt;/p&gt;
 
 
 &lt;h3&gt;Potentiometer零件:&lt;br/&gt;&lt;/h3&gt;
