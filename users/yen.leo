@@ -61,6 +61,7 @@
 <v t="leo.20170508224153.1"><vh>@edit Lab7 Seven_Segments.md</vh></v>
 <v t="leo.20170509223103.1"><vh>@edit Lab8 photocell.md</vh></v>
 <v t="leo.20170604132633.1"><vh>@edit small exam.md</vh></v>
+<v t="leo.20170611233814.1"><vh>@edit Potentiometer.md</vh></v>
 <v t="leo.20170517150804.1"><vh>@edit  HTML-texts.md</vh></v>
 <v t="leo.20170607231259.1"><vh>@edit  Font.md</vh></v>
 <v t="leo.20170607235633.1"><vh>@edit  Paragraphs.md</vh></v>

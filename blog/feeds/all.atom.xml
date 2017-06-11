@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-08T08:42:00+08:00</updated><entry><title>HTML標籤</title><link href="./HTML%20tags.html" rel="alternate"></link><published>2017-06-08T08:42:00+08:00</published><updated>2017-06-08T08:42:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./HTML tags.html</id><summary type="html">&lt;p&gt;以下為HTML的各自範例&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-11T11:38:00+08:00</updated><entry><title>Potentiometer</title><link href="./Potentiometer.html" rel="alternate"></link><published>2017-06-11T11:38:00+08:00</published><updated>2017-06-11T11:38:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-11:./Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Potentiometer的解說&lt;/p&gt;
+
+
+&lt;h3&gt;Potentiometer零件:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Potentiometer/Potentiometer.jpg" width="300" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;Potentiometer裝配方式:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Potentiometer/Circuit diagram-2.jpg" width="650" /&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;運作原理:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;可變電阻有三個腳位,左右兩腳如上圖是連接火線跟地線(也可左接LOW右接HIGH),而假如你選擇了500Ω,那左右兩腳的電阻就是500Ω,重點是中間的腳位,轉動旋鈕可改變中間腳位的電阻,也就可以改變輸出的電流.
+&lt;br&gt;
+注意: 當你選擇了500Ω的可變電阻,那中間腳位的最大電阻也就是500Ω&lt;/p&gt;
+&lt;h3&gt;參考網站:&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;1.Potentiometer零件圖:
+&lt;a href="https://store.fut-electronics.com/collections/potentiometers"&gt;https://store.fut-electronics.com/collections/potentiometers&lt;/a&gt;
+&lt;br/&gt;
+參考對象:
+&lt;img src="./../data/Arduino/參考對象/F.jpg" width="150" /&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="Arduino"></category></entry><entry><title>HTML標籤</title><link href="./HTML%20tags.html" rel="alternate"></link><published>2017-06-08T08:42:00+08:00</published><updated>2017-06-08T08:42:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-08:./HTML tags.html</id><summary type="html">&lt;p&gt;以下為HTML的各自範例&lt;/p&gt;
 
 
 &lt;h1&gt;20170608&lt;/h1&gt;
