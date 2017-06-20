@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-20T23:28:00+08:00</updated><entry><title>2017springcd-final-2</title><link href="./2017springcd-final-2.html" rel="alternate"></link><published>2017-06-20T23:28:00+08:00</published><updated>2017-06-20T23:28:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-2.html</id><summary type="html">&lt;p&gt;期末內容-2&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-21T01:09:00+08:00</updated><entry><title>2017springcd-final-3</title><link href="./2017springcd-final-3.html" rel="alternate"></link><published>2017-06-21T01:09:00+08:00</published><updated>2017-06-21T01:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-3.html</id><summary type="html">&lt;p&gt;期末內容-3&lt;/p&gt;
+
+
+&lt;p&gt;各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://github.com/40423222/2016fallcadp_hw/wiki/code-page"&gt;子模組說明&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;指令:&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+git submodule add -b gh-pages https://github.com/scrum-1/cdbw17 W17
+建立一個W17的資料夾 可利用 git pull origin gh-pages --recurse-submodules拉回所有子模組的https://github.com/scrum-1/cdbw17的倉儲資料容
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-2</title><link href="./2017springcd-final-2.html" rel="alternate"></link><published>2017-06-20T23:28:00+08:00</published><updated>2017-06-20T23:28:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-2.html</id><summary type="html">&lt;p&gt;期末內容-2&lt;/p&gt;
 
 
 &lt;p&gt;各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
