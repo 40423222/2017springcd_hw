@@ -51,6 +51,7 @@
 <v t="leo.20170621010846.1"><vh>@edit 2017springcd-final-3.md</vh></v>
 <v t="leo.20170621012951.1"><vh>@edit 2017springcd-final-4~5.md</vh></v>
 <v t="leo.20170621014130.1"><vh>@edit 2017springcd-final-6.md</vh></v>
+<v t="leo.20170621064408.1"><vh>@edit 期末協同查驗與自評.md</vh></v>
 <v t="leo.20170617221317.1"><vh>@edit Concrete.md</vh></v>
 <v t="leo.20170425205648.1"><vh>@edit 20170425.md</vh></v>
 <v t="leo.20170425221933.1"><vh>@edit 20170425-2.md</vh></v>
