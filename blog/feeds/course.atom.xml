@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-06-21T01:09:00+08:00</updated><entry><title>2017springcd-final-3</title><link href="./2017springcd-final-3.html" rel="alternate"></link><published>2017-06-21T01:09:00+08:00</published><updated>2017-06-21T01:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-3.html</id><summary type="html">&lt;p&gt;期末內容-3&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-06-21T01:30:00+08:00</updated><entry><title>2017springcd-final-4~5</title><link href="./2017springcd-final-4~5.html" rel="alternate"></link><published>2017-06-21T01:30:00+08:00</published><updated>2017-06-21T01:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-4~5.html</id><summary type="html">&lt;p&gt;期末內容-4~5&lt;/p&gt;
+
+
+&lt;p&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/p&gt;
+&lt;p&gt;5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬&lt;/p&gt;
+&lt;h2&gt;&lt;a herf="https://cad.onshape.com/documents/cf507b96e7c271e8c87cf557/w/1b52e29c6835a06bb0bc5287/e/be08f4e14664ee2e0e4f9d3e"&gt;零件連結&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;繪畫玩零件之後交給組員完成(V-rep的模擬)&lt;/h3&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-3</title><link href="./2017springcd-final-3.html" rel="alternate"></link><published>2017-06-21T01:09:00+08:00</published><updated>2017-06-21T01:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-3.html</id><summary type="html">&lt;p&gt;期末內容-3&lt;/p&gt;
 
 
 &lt;p&gt;各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
