@@ -1,28 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-06-20T23:28:00+08:00</updated><entry><title>2017springcd-final-2</title><link href="./2017springcd-final-2.html" rel="alternate"></link><published>2017-06-20T23:28:00+08:00</published><updated>2017-06-20T23:28:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-2.html</id><summary type="html">&lt;p&gt;期末內容-2&lt;/p&gt;
+Title: 2017springcd-final-2
+Date: 2017-06-20 23:28
+Category: Course
+Tags: notes, bg7
+Slug: 2017springcd-final-2
+Author: 40423222
+
+期末內容-2
+
+<!-- PELICAN_END_SUMMARY -->
+
+各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中
 
 
-&lt;p&gt;各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
-&lt;p&gt;&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;!-- 啟動 Brython --&gt;
-
-&lt;script&gt;
+<!-- 導入 Brython 標準程式庫 -->
+ <script src="../data/Brython-3.3.1/brython.js"></script>
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+ 
+<!-- 啟動 Brython -->
+<script>
 window.onload=function(){
 // 設定 data/py 為共用程式路徑
 brython({debug:1, pythonpath:['./../data/py']});
 }
-&lt;/script&gt;
+</script>
 
-&lt;!-- 以下實際利用  Brython 繪圖--&gt;
+<!-- 以下實際利用  Brython 繪圖-->
+<canvas id="onegear2" width="800" height="600"></canvas>
+<div id="onegear_div" width="800" height="20"></div>
 
-&lt;canvas id="onegear2" width="800" height="600"&gt;&lt;/canvas&gt;
-
-&lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
-
-&lt;script type="text/python3"&gt;
+<script type="text/python3">
 from browser import document as doc
 import math
 # deg 為角度轉為徑度的轉換因子
@@ -31,7 +37,7 @@ deg = math.pi/180.
 class Spur(object):
     def __init__(self, ctx):
         self.ctx = ctx
-
+ 
 # 設定畫線參數 
     def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
         self.ctx.beginPath()
@@ -54,10 +60,10 @@ class Spur(object):
         self.ctx.lineTo(x2, y2)
         self.ctx.strokeStyle = fill
         self.ctx.stroke()
-
+        
 
     def Gear(self, midx, midy, rp, n=20, pa=20, color="black"):
-
+        
         rp = 250
         imax = 15
         m=2*rp/n
@@ -71,52 +77,52 @@ class Spur(object):
         self.create_line3(0, 600, 800, 600)
         self.create_line3(800, 600, 800, 0)
         self.create_line3(800, 0, 0, 0)
-
+        
         # 畫出第一位 4
         self.create_line3(100, 150, 100, 220)
         self.create_line3(100, 220, 200, 220)
         self.create_line3(150, 150, 150, 250)
-
+        
         # 畫出第二位 0
         self.create_line3(230, 150, 230, 250)
         self.create_line3(230, 250, 300, 250)
         self.create_line3(300, 250, 300, 150)
         self.create_line3(300, 150, 230, 150)
-
+        
         # 畫出第三位 4
         self.create_line3(330, 150, 330, 230)
         self.create_line3(330, 230, 430, 230)
         self.create_line3(380, 150, 380, 250)
-
+        
         # 畫出第四位 2
         self.create_line3(480, 150, 550, 150)
         self.create_line3(550, 150, 550, 200)
         self.create_line3(550, 200, 480, 200)
         self.create_line3(480, 200, 480, 250)
         self.create_line3(480, 250, 550, 250)
-
+        
         # 畫出第五位 3
         self.create_line3(580, 150, 650,150 )
         self.create_line3(650, 150, 650, 250)
         self.create_line3(580, 200, 650, 200)
         self.create_line3(580, 250, 650, 250)
-
+        
         # 畫出第六位 2
         self.create_line3(200, 350, 350,350 )
         self.create_line3(350, 350, 350, 450)
         self.create_line3(350, 450, 200, 450)
         self.create_line3(200, 450, 200, 550)
         self.create_line3(200, 550, 350, 550)
-
+        
         # 畫出第七位 2
         self.create_line3(500, 350, 650,350 )
         self.create_line3(650, 350, 650, 450)
         self.create_line3(650, 450, 500, 450)
         self.create_line3(500, 450, 500, 550)
         self.create_line3(500, 550, 650, 550)
+        
 
-
-        if rd&gt;rb:
+        if rd>rb:
             dr = (ra-rd)/imax
         else:
             dr=(ra-rb)/imax
@@ -127,7 +133,7 @@ class Spur(object):
             lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
             lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
             for i in range(imax+1):
-                if rd&gt;rb:
+                if rd>rb:
                     r=rd+i*dr
                 else:
                     r=rb+i*dr
@@ -142,7 +148,7 @@ class Spur(object):
                     last_y = midy-yd
             self.create_line((lxd),(lyd),(midx+xd),(midy-yd),fill=color)
             for i in range(imax+1):
-                if rd&gt;rb:
+                if rd>rb:
                     r=rd+i*dr
                 else:
                     r=rb+i*dr
@@ -172,79 +178,60 @@ n = 36
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
-&lt;/script&gt;
+</script>
 
-&lt;h2&gt;指令:&lt;/h2&gt;
-&lt;p&gt;&lt;pre&gt;
+
+
+## 指令:
+<pre>
         # 畫出黑色外框
         self.create_line3(0, 0, 0, 600)
         self.create_line3(0, 600, 800, 600)
         self.create_line3(800, 600, 800, 0)
-        self.create_line3(800, 0, 0, 0)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    # 畫出第一位 4
-    self.create_line3(100, 150, 100, 220)
-    self.create_line3(100, 220, 200, 220)
-    self.create_line3(150, 150, 150, 250)
-
-    # 畫出第二位 0
-    self.create_line3(230, 150, 230, 250)
-    self.create_line3(230, 250, 300, 250)
-    self.create_line3(300, 250, 300, 150)
-    self.create_line3(300, 150, 230, 150)
-
-    # 畫出第三位 4
-    self.create_line3(330, 150, 330, 230)
-    self.create_line3(330, 230, 430, 230)
-    self.create_line3(380, 150, 380, 250)
-
-    # 畫出第四位 2
-    self.create_line3(480, 150, 550, 150)
-    self.create_line3(550, 150, 550, 200)
-    self.create_line3(550, 200, 480, 200)
-    self.create_line3(480, 200, 480, 250)
-    self.create_line3(480, 250, 550, 250)
-
-    # 畫出第五位 3
-    self.create_line3(580, 150, 650,150 )
-    self.create_line3(650, 150, 650, 250)
-    self.create_line3(580, 200, 650, 200)
-    self.create_line3(580, 250, 650, 250)
-
-    # 畫出第六位 2
-    self.create_line3(200, 350, 350,350 )
-    self.create_line3(350, 350, 350, 450)
-    self.create_line3(350, 450, 200, 450)
-    self.create_line3(200, 450, 200, 550)
-    self.create_line3(200, 550, 350, 550)
-
-    # 畫出第七位 2
-    self.create_line3(500, 350, 650,350 )
-    self.create_line3(650, 350, 650, 450)
-    self.create_line3(650, 450, 500, 450)
-    self.create_line3(500, 450, 500, 550)
-    self.create_line3(500, 550, 650, 550)
-
-    左上角為原點 X向右為正 Y向下為正
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/pre&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-1</title><link href="./2017springcd-final-1.html" rel="alternate"></link><published>2017-06-20T23:11:00+08:00</published><updated>2017-06-20T23:11:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-1.html</id><summary type="html">&lt;p&gt;期末內容-1&lt;/p&gt;
-
-
-&lt;p&gt;各組員倉儲中的 Github 檔案推送&lt;/p&gt;
-&lt;h2&gt;指令:&lt;/h2&gt;
-&lt;p&gt;&lt;pre&gt;
-&lt;xmp&gt;
-cd 到檔案
-git add -A
-git commit -m "更改內容"
-git push origin gh-pages
-輸入帳號跟密碼
-&lt;/xmp&gt;
-&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>小組倉儲</title><link href="./2017spring-cd-bg7.html" rel="alternate"></link><published>2017-04-12T01:19:00+08:00</published><updated>2017-04-12T01:19:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-bg7.html</id><summary type="html">&lt;p&gt;bg7小組的內容&lt;/p&gt;
-
-
-&lt;h2&gt;&lt;a href="https://github.com/40423222/2017springcd_hw"&gt;組長倉儲&lt;/a&gt;&lt;br/&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;span style="background-color: #ffff00"&gt;上課的內容&lt;/span&gt;請到小組的&lt;a href="https://github.com/40423222/2017springcd_bg7"&gt;倉儲&lt;/a&gt;或&lt;a href="https://40423222.github.io/2017springcd_bg7/blog/"&gt;網誌&lt;/a&gt;觀看:&lt;/h2&gt;
-&lt;h3&gt;&lt;a href="https://github.com/40423222/2017springcd_bg7"&gt;小組倉儲&lt;/a&gt;&lt;br/&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a href="https://40423222.github.io/2017springcd_bg7/blog/"&gt;小組網誌&lt;/a&gt;&lt;/h3&gt;</summary><category term="notes"></category><category term="bg7"></category></entry></feed>
+        self.create_line3(800, 0, 0, 0)
+        
+        # 畫出第一位 4
+        self.create_line3(100, 150, 100, 220)
+        self.create_line3(100, 220, 200, 220)
+        self.create_line3(150, 150, 150, 250)
+        
+        # 畫出第二位 0
+        self.create_line3(230, 150, 230, 250)
+        self.create_line3(230, 250, 300, 250)
+        self.create_line3(300, 250, 300, 150)
+        self.create_line3(300, 150, 230, 150)
+        
+        # 畫出第三位 4
+        self.create_line3(330, 150, 330, 230)
+        self.create_line3(330, 230, 430, 230)
+        self.create_line3(380, 150, 380, 250)
+        
+        # 畫出第四位 2
+        self.create_line3(480, 150, 550, 150)
+        self.create_line3(550, 150, 550, 200)
+        self.create_line3(550, 200, 480, 200)
+        self.create_line3(480, 200, 480, 250)
+        self.create_line3(480, 250, 550, 250)
+        
+        # 畫出第五位 3
+        self.create_line3(580, 150, 650,150 )
+        self.create_line3(650, 150, 650, 250)
+        self.create_line3(580, 200, 650, 200)
+        self.create_line3(580, 250, 650, 250)
+        
+        # 畫出第六位 2
+        self.create_line3(200, 350, 350,350 )
+        self.create_line3(350, 350, 350, 450)
+        self.create_line3(350, 450, 200, 450)
+        self.create_line3(200, 450, 200, 550)
+        self.create_line3(200, 550, 350, 550)
+        
+        # 畫出第七位 2
+        self.create_line3(500, 350, 650,350 )
+        self.create_line3(650, 350, 650, 450)
+        self.create_line3(650, 450, 500, 450)
+        self.create_line3(500, 450, 500, 550)
+        self.create_line3(500, 550, 650, 550)
+        
+        左上角為原點 X向右為正 Y向下為正
+</pre>
