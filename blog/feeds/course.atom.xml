@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-12T01:19:00+08:00</updated><entry><title>小組倉儲</title><link href="./2017spring-cd-bg7.html" rel="alternate"></link><published>2017-04-12T01:19:00+08:00</published><updated>2017-04-12T01:19:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-bg7.html</id><summary type="html">&lt;p&gt;bg7小組的內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-06-20T23:11:00+08:00</updated><entry><title>2017springcd-final-1</title><link href="./2017springcd-final-1.html" rel="alternate"></link><published>2017-06-20T23:11:00+08:00</published><updated>2017-06-20T23:11:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-1.html</id><summary type="html">&lt;p&gt;期末內容-1&lt;/p&gt;
+
+
+&lt;p&gt;各組員倉儲中的 Github 檔案推送&lt;/p&gt;
+&lt;h2&gt;指令:&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;xmp&gt;
+cd 到檔案
+git add -A
+git commit -m "更改內容"
+git push origin gh-pages
+輸入帳號跟密碼
+&lt;/xmp&gt;
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>小組倉儲</title><link href="./2017spring-cd-bg7.html" rel="alternate"></link><published>2017-04-12T01:19:00+08:00</published><updated>2017-04-12T01:19:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-bg7.html</id><summary type="html">&lt;p&gt;bg7小組的內容&lt;/p&gt;
 
 
 &lt;h2&gt;&lt;a href="https://github.com/40423222/2017springcd_hw"&gt;組長倉儲&lt;/a&gt;&lt;br/&gt;&lt;/h2&gt;
