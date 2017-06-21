@@ -23,11 +23,11 @@
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
 <v t="yen.20170215103217.1"><vh>編輯 template</vh>
-<v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
+<v t="yen.20170215103228.1"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -38,6 +38,29 @@
 </v>
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20170621083623.1" a="E"><vh>期末</vh>
+<v t="leo.20170621083623.2"><vh>其中到期末</vh>
+<v t="leo.20170621083623.3"><vh>報告</vh></v>
+</v>
+<v t="leo.20170621084937.1"><vh>Onshape</vh>
+<v t="leo.20170621084937.2"><vh>心得</vh></v>
+</v>
+<v t="leo.20170621085351.1"><vh>齒輪</vh>
+<v t="leo.20170621085351.2"><vh>繪畫</vh></v>
+</v>
+<v t="leo.20170621083623.4"><vh>齒輪</vh>
+<v t="leo.20170621083623.5"><vh>指令</vh></v>
+</v>
+<v t="leo.20170621083623.6"><vh>行走機構</vh>
+<v t="leo.20170621083623.7"><vh>行走機構</vh></v>
+</v>
+<v t="leo.20170621084540.1"><vh>行走機構</vh>
+<v t="leo.20170621084540.2"><vh>行走機構</vh></v>
+</v>
+<v t="leo.20170621085820.1"><vh>期末協同查驗與自評</vh>
+<v t="leo.20170621085820.2"><vh>end</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -106,6 +129,107 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170621083623.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170621083623.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621083623.3"># 期中到期末的成果
+
+網址: https://40423222.github.io/2017springcd_bg7/blog/category/course.html</t>
+<t tx="leo.20170621083623.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621083623.5">## 用指令繪畫齒輪
+
+&lt;img src="data/W17/齒輪.jpg" width="300"&gt;
+
+因為製作速度比拍影片快和輕鬆,也不怕網路不給利而Lag,再加上找起重點比看影片簡單,所以我決定不製作影片,而來製作筆記
+
+網址: https://40423222.github.io/2017springcd_bg7/blog/15W-Code%20gear.html</t>
+<t tx="leo.20170621083623.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621083623.7">## 行走機構
+
+&lt;iframe src="https://player.vimeo.com/video/217646271" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+禮拜五才能拿到成品</t>
+<t tx="leo.20170621084540.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621084540.2">&lt;img src="data/W17/工作分配.jpg" width="600"&gt;
+
+網誌: https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%95%AB-%E8%A1%8C%E8%B5%B0%E6%A9%9F%E6%A7%8B.html</t>
+<t tx="leo.20170621084937.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621084937.2"># Onshape閱讀心得
+
+1.小組協同閱讀兩本電子書翻譯並寫下心得
+這裡為Onshape's Greatest Tech Tips– Volume 1.pdf
+
+網誌: https://40423222.github.io/2017springcd_bg7/blog/Onshape%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97.html</t>
+<t tx="leo.20170621085351.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621085351.2"># 繪畫見開線齒輪
+
+利用Onshape繪畫見開線齒輪
+
+&lt;iframe src="https://player.vimeo.com/video/217387017" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+網誌: https://40423222.github.io/2017springcd_bg7/blog/%E6%BC%B8%E9%96%8B%E7%B7%9A%E9%BD%92%E8%BC%AA-Onshape.html</t>
+<t tx="leo.20170621085820.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621085820.2">## 期末協同查驗與自評
+
+網誌: https://40423222.github.io/2017springcd_hw/blog/2017springcd-final.html</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

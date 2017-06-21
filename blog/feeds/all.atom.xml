@@ -13,13 +13,19 @@
 
 
 &lt;h2&gt;&lt;marquee direction="left" height="40" width="600" scrollamount="10" behavior="slide"&gt;以下為協同產品設計實習的期末計畫&lt;/marquee&gt;&lt;/h2&gt;
-&lt;h1&gt;&lt;a href="https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%95%AB-%E8%A1%8C%E8%B5%B0%E6%A9%9F%E6%A7%8B.html"&gt;請點擊這&lt;/a&gt;&lt;/h1&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-4~5</title><link href="./2017springcd-final-4~5.html" rel="alternate"></link><published>2017-06-21T01:30:00+08:00</published><updated>2017-06-21T01:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-4~5.html</id><summary type="html">&lt;p&gt;期末內容-4~5&lt;/p&gt;
+&lt;h1&gt;&lt;a href="https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%95%AB-%E8%A1%8C%E8%B5%B0%E6%A9%9F%E6%A7%8B.html"&gt;請點擊這&lt;/a&gt;&lt;/h1&gt;
+&lt;iframe src="https://player.vimeo.com/video/222437261" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222437261"&gt;40423222-2017springcd-final-6&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-4~5</title><link href="./2017springcd-final-4~5.html" rel="alternate"></link><published>2017-06-21T01:30:00+08:00</published><updated>2017-06-21T01:30:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-4~5.html</id><summary type="html">&lt;p&gt;期末內容-4~5&lt;/p&gt;
 
 
 &lt;p&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/p&gt;
 &lt;p&gt;5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬&lt;/p&gt;
 &lt;h2&gt;&lt;a herf="https://cad.onshape.com/documents/cf507b96e7c271e8c87cf557/w/1b52e29c6835a06bb0bc5287/e/be08f4e14664ee2e0e4f9d3e"&gt;零件連結&lt;/a&gt;&lt;/h2&gt;
-&lt;h3&gt;繪畫玩零件之後交給組員完成(V-rep的模擬)&lt;/h3&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-3</title><link href="./2017springcd-final-3.html" rel="alternate"></link><published>2017-06-21T01:09:00+08:00</published><updated>2017-06-21T01:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-3.html</id><summary type="html">&lt;p&gt;期末內容-3&lt;/p&gt;
+&lt;h3&gt;繪畫玩零件之後交給組員完成(V-rep的模擬)&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222437354" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222437354"&gt;40423222-2017springcd-final-4~5&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-3</title><link href="./2017springcd-final-3.html" rel="alternate"></link><published>2017-06-21T01:09:00+08:00</published><updated>2017-06-21T01:09:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-21:./2017springcd-final-3.html</id><summary type="html">&lt;p&gt;期末內容-3&lt;/p&gt;
 
 
 &lt;p&gt;各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
@@ -30,7 +36,10 @@
 git submodule add -b gh-pages https://github.com/scrum-1/cdbw17 W17
 建立一個W17的資料夾 可利用 git pull origin gh-pages --recurse-submodules拉回所有子模組的https://github.com/scrum-1/cdbw17的倉儲資料容
 &lt;/xmp&gt;
-&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-2</title><link href="./2017springcd-final-2.html" rel="alternate"></link><published>2017-06-20T23:28:00+08:00</published><updated>2017-06-20T23:28:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-2.html</id><summary type="html">&lt;p&gt;期末內容-2&lt;/p&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/222437331" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222437331"&gt;40423222-2017springcd-final-3&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-2</title><link href="./2017springcd-final-2.html" rel="alternate"></link><published>2017-06-20T23:28:00+08:00</published><updated>2017-06-20T23:28:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-2.html</id><summary type="html">&lt;p&gt;期末內容-2&lt;/p&gt;
 
 
 &lt;p&gt;各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
@@ -259,7 +268,11 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;/pre&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-1</title><link href="./2017springcd-final-1.html" rel="alternate"></link><published>2017-06-20T23:11:00+08:00</published><updated>2017-06-20T23:11:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-1.html</id><summary type="html">&lt;p&gt;期末內容-1&lt;/p&gt;
+&lt;/pre&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/222437300" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222437300"&gt;40423222-2017springcd-final-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>2017springcd-final-1</title><link href="./2017springcd-final-1.html" rel="alternate"></link><published>2017-06-20T23:11:00+08:00</published><updated>2017-06-20T23:11:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-20:./2017springcd-final-1.html</id><summary type="html">&lt;p&gt;期末內容-1&lt;/p&gt;
 
 
 &lt;p&gt;各組員倉儲中的 Github 檔案推送&lt;/p&gt;
@@ -272,7 +285,10 @@ git commit -m "更改內容"
 git push origin gh-pages
 輸入帳號跟密碼
 &lt;/xmp&gt;
-&lt;/pre&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>Concrete</title><link href="./Concrete.html" rel="alternate"></link><published>2017-06-17T10:14:00+08:00</published><updated>2017-06-17T10:14:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-17:./Concrete.html</id><summary type="html">&lt;p&gt;Concrete的介紹&lt;/p&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/222437277" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222437277"&gt;40423222-2017springcd-final-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="bg7"></category></entry><entry><title>Concrete</title><link href="./Concrete.html" rel="alternate"></link><published>2017-06-17T10:14:00+08:00</published><updated>2017-06-17T10:14:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-06-17:./Concrete.html</id><summary type="html">&lt;p&gt;Concrete的介紹&lt;/p&gt;
 
 
 &lt;h2&gt;參考對象&lt;/h2&gt;
